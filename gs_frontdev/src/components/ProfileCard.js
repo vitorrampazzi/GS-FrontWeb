@@ -1,14 +1,15 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link'; // <-- 1. Importar o Link
 
-function ProfileCard({ profile, onSelect }) {
+// 2. Removemos 'onSelect' das props
+function ProfileCard({ profile }) {
   return (
-    <div 
-      className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md cursor-pointer hover:scale-105 transition-transform"
-      onClick={() => onSelect(profile)}
+    // 3. O Card inteiro agora é um Link
+    <Link 
+      href={`/profile/${profile.id}`} // <-- Link dinâmico!
+      className="block bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md hover:scale-105 transition-transform"
     >
-      
-
       <Image 
         src={profile.avatar} 
         alt={profile.name} 
@@ -16,7 +17,6 @@ function ProfileCard({ profile, onSelect }) {
         width={96}
         height={96}
       />
-      
       <h3 className="text-xl font-bold text-center mt-4">{profile.name}</h3>
       <p className="text-center text-blue-500 dark:text-blue-400">{profile.title}</p>
       
@@ -27,7 +27,7 @@ function ProfileCard({ profile, onSelect }) {
           </span>
         ))}
       </div>
-    </div>
+    </Link>
   );
 }
 
