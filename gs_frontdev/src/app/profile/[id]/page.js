@@ -1,17 +1,21 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import profilesData from '@/data/profiles.json'; // Importa os dados
+import profilesData from '@/data/profiles.json';
 
-// Esta função encontra o perfil com base no ID da URL
 function getProfile(id) {
-  // params.id é sempre uma string, então comparamos com o id (que é número)
   return profilesData.find(p => p.id.toString() === id);
 }
 
-// Esta é a sua página de perfil
-export default function ProfilePage({ params }) {
-  const profile = getProfile(params.id);
+// 1. A função é async
+export default async function ProfilePage({ params }) {
+  
+  // 2. NÓS PRECISAMOS ESPERAR (await) a promessa 'params' ser resolvida!
+  //    Esta é a linha que faltava.
+  const unwrappedParams = await params; 
+
+  // 3. AGORA sim podemos usar o '.id'
+  const profile = getProfile(unwrappedParams.id); 
 
   // Se o perfil não for encontrado
   if (!profile) {
@@ -26,15 +30,11 @@ export default function ProfilePage({ params }) {
   }
 
   // Se o perfil for encontrado, mostramos os detalhes
-  // (Este JSX é o mesmo do seu Modal.jsx, mas adaptado para uma página)
   return (
     <main className="max-w-2xl mx-auto p-6 md:p-10">
-      {/* Botão de Voltar */}
       <Link href="/" className="text-blue-500 hover:underline mb-6 inline-block">
         &larr; Voltar para a lista
       </Link>
-
-      {/* Conteúdo do Perfil */}
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl p-6">
         <div className="text-center">
           <Image 
@@ -49,22 +49,20 @@ export default function ProfilePage({ params }) {
           <p className="mt-2 text-gray-600 dark:text-gray-400">{profile.city} - {profile.area}</p>
         </div>
 
+        {/* O resto do código (sobre, formação, etc.) */}
         <div className="mt-6 space-y-4">
           <div>
             <h3 className="text-xl font-semibold border-b border-gray-300 dark:border-gray-700 pb-2">Sobre</h3>
             <p className="mt-2 text-gray-700 dark:text-gray-300">{profile.bio}</p>
           </div>
-          
           <div>
             <h3 className="text-xl font-semibold border-b border-gray-300 dark:border-gray-700 pb-2">Formação</h3>
             <p className="mt-2 text-gray-700 dark:text-gray-300">{profile.education}</p>
           </div>
-          
           <div>
             <h3 className="text-xl font-semibold border-b border-gray-300 dark:border-gray-700 pb-2">Experiência</h3>
             <p className="mt-2 text-gray-700 dark:text-gray-300">{profile.experience}</p>
           </div>
-
           <div>
             <h3 className="text-xl font-semibold border-b border-gray-300 dark:border-gray-700 pb-2">Hard Skills</h3>
             <div className="flex flex-wrap gap-2 mt-2">
@@ -75,7 +73,6 @@ export default function ProfilePage({ params }) {
               ))}
             </div>
           </div>
-
           <div>
             <h3 className="text-xl font-semibold border-b border-gray-300 dark:border-gray-700 pb-2">Soft Skills</h3>
             <div className="flex flex-wrap gap-2 mt-2">

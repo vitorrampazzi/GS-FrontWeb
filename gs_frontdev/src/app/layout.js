@@ -1,15 +1,19 @@
-import './globals.css' 
+import './globals.css'; 
+import { Inter } from 'next/font/google'; 
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Estudo Global Solution',
-} 
+  title: 'DevConnect',
+  description: 'Projeto de estudo GS',
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body className="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white min-h-screen">
+      <body className={`${inter.className} bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white min-h-screen`}>
         {children}
       </body>
     </html>
-  )
+  );
 }

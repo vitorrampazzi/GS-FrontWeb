@@ -58,7 +58,7 @@ export default function ProfileList({ allProfiles }) {
       <header className="mb-8">
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-4xl font-bold text-blue-600 dark:text-blue-400">
-            DevConnect (Next.js)
+            DevConnect
           </h1>
           <button onClick={toggleDarkMode} className="p-2 rounded-full bg-gray-200 dark:bg-gray-700">
             {isDark ? '☀️' : '🌙'}
