@@ -5,13 +5,27 @@ import ProfileCard from './ProfileCard';
 import Modal from './Modal';
 
 export default function ProfileList({ allProfiles }) {
-
+  
 
   const [profiles, setProfiles] = useState(allProfiles); 
   const [selectedProfile, setSelectedProfile] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [areaFilter, setAreaFilter] = useState('');
+  const [cityFilter, setCityFilter] = useState(''); 
   const [isDark, setIsDark] = useState(false);
+
+
+  const uniqueAreas = useMemo(() => {
+    const allAreas = allProfiles.map(profile => profile.area);
+    return [...new Set(allAreas)].sort(); 
+  }, [allProfiles]);
+
+  const uniqueCities = useMemo(() => {
+    const allCities = allProfiles.map(profile => profile.city);
+    return [...new Set(allCities)].sort();
+  }, [allProfiles]);
+
+
 
   useEffect(() => {
     if (isDark) {
@@ -26,15 +40,16 @@ export default function ProfileList({ allProfiles }) {
       const nameMatch = profile.name.toLowerCase().includes(searchTerm.toLowerCase());
       const skillMatch = profile.skills.some(skill => skill.toLowerCase().includes(searchTerm.toLowerCase()));
       const areaMatch = areaFilter === '' || profile.area === areaFilter;
-      return (nameMatch || skillMatch) && areaMatch;
+      const cityMatch = cityFilter === '' || profile.city === cityFilter;
+      
+      return (nameMatch || skillMatch) && areaMatch && cityMatch;
     });
-  }, [profiles, searchTerm, areaFilter]);
+  }, [profiles, searchTerm, areaFilter, cityFilter]); 
 
   const toggleDarkMode = () => setIsDark(!isDark);
 
   return (
     <>
-
       <header className="mb-8">
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-4xl font-bold text-blue-600 dark:text-blue-400">
@@ -44,7 +59,7 @@ export default function ProfileList({ allProfiles }) {
             {isDark ? '☀️' : '🌙'}
           </button>
         </div>
-
+        
         <div className="flex flex-col md:flex-row gap-4">
           <input 
             type="text"
@@ -53,14 +68,28 @@ export default function ProfileList({ allProfiles }) {
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
+
           <select
             className="p-3 rounded-lg border bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-700"
             value={areaFilter}
             onChange={(e) => setAreaFilter(e.target.value)}
           >
             <option value="">Todas as Áreas</option>
-            <option value="Tecnologia">Tecnologia</option>
-            <option value="Design">Design</option>
+
+            {uniqueAreas.map(area => (
+              <option key={area} value={area}>{area}</option>
+            ))}
+          </select>
+
+          <select
+            className="p-3 rounded-lg border bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-700"
+            value={cityFilter}
+            onChange={(e) => setCityFilter(e.target.value)}
+          >
+            <option value="">Todas as Cidades</option>
+            {uniqueCities.map(city => (
+              <option key={city} value={city}>{city}</option>
+            ))}
           </select>
         </div>
       </header>
