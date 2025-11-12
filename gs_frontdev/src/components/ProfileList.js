@@ -1,8 +1,8 @@
 "use client"; 
 
 import React, { useState, useEffect, useMemo } from 'react';
-import ProfileCard from '../ProfileCard';
-import Modal from '../Modal';
+import ProfileCard from './ProfileCard';
+import Modal from './modal';
 
 export default function ProfileList({ allProfiles }) {
   
