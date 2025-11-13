@@ -2,14 +2,13 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
 import ProfileCard from './ProfileCard';
-// Não precisamos mais do Modal
 
 export default function ProfileList({ allProfiles }) {
   
   const [profiles, setProfiles] = useState(allProfiles); 
   const [searchTerm, setSearchTerm] = useState('');
   const [areaFilter, setAreaFilter] = useState('');
-  const [cityFilter, setCityFilter] = useState(''); // <-- MUDOU (de city para localizacao)
+  const [cityFilter, setCityFilter] = useState('');
   const [isDark, setIsDark] = useState(false);
   const [sortOrder, setSortOrder] = useState('asc');
 
@@ -21,8 +20,7 @@ export default function ProfileList({ allProfiles }) {
   }, [allProfiles]);
 
   const uniqueCities = useMemo(() => {
-    // --- MUDOU AQUI ---
-    // De 'profile.city' para 'profile.localizacao'
+    // 'profile.localizacao'
     const allCities = allProfiles.map(profile => profile.localizacao);
     return [...new Set(allCities)].sort();
   }, [allProfiles]);
@@ -34,25 +32,22 @@ export default function ProfileList({ allProfiles }) {
     } else {
       document.documentElement.classList.remove('dark');
     }
-  }, [isDark]);
+  }, [isDark]); // Roda toda vez que 'isDark' mudar
 
   // Lógica de Filtro e Ordenação
   const filteredAndSortedProfiles = useMemo(() => {
     
     const filtered = profiles.filter(profile => {
-      // --- MUDOU AQUI ---
-      // 'profile.name' -> 'profile.nome'
+      // 'profile.nome'
       const nameMatch = profile.nome.toLowerCase().includes(searchTerm.toLowerCase());
       
-      // --- MUDOU AQUI ---
-      // 'profile.skills' -> 'profile.habilidadesTecnicas'
+      // 'profile.habilidadesTecnicas'
       const skillMatch = profile.habilidadesTecnicas.some(skill => skill.toLowerCase().includes(searchTerm.toLowerCase()));
       
-      // 'profile.area' (estava correto)
+      // 'profile.area'
       const areaMatch = areaFilter === '' || profile.area === areaFilter;
       
-      // --- MUDOU AQUI ---
-      // 'profile.city' -> 'profile.localizacao'
+      // 'profile.localizacao'
       const cityMatch = cityFilter === '' || profile.localizacao === cityFilter;
       
       return (nameMatch || skillMatch) && areaMatch && cityMatch;
@@ -61,20 +56,16 @@ export default function ProfileList({ allProfiles }) {
     // Lógica de Ordenação (Sort)
     const sorted = [...filtered].sort((a, b) => {
       if (sortOrder === 'asc') {
-        // --- MUDOU AQUI ---
-        // 'a.name' -> 'a.nome'
+        // 'a.nome'
         return a.nome.localeCompare(b.nome); 
       } else {
-        // --- MUDOU AQUI ---
-        // 'b.name' -> 'b.nome'
+        // 'b.nome'
         return b.nome.localeCompare(a.nome);
       }
     });
     
     return sorted;
-  }, [profiles, searchTerm, areaFilter, cityFilter, sortOrder]); // <-- Adicionamos cityFilter aqui
-
-  const toggleDarkMode = () => setIsDark(!isDark);
+  }, [profiles, searchTerm, areaFilter, cityFilter, sortOrder]);
 
   return (
     <>
@@ -82,17 +73,22 @@ export default function ProfileList({ allProfiles }) {
       <header className="mb-8">
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-4xl font-bold text-blue-600 dark:text-blue-400">
-            DevConnect 
+            DevConnect (Next.js)
           </h1>
-          <button onClick={toggleDarkMode} className="p-2 rounded-full bg-gray-200 dark:bg-gray-700">
+          
+          <button 
+            onClick={() => setIsDark(!isDark)} 
+            className="p-2 rounded-full bg-gray-200 dark:bg-gray-700"
+          >
             {isDark ? '☀️' : '🌙'}
           </button>
+
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <input 
             type="text"
-            placeholder="Buscar por nome ou habilidade..." // Texto atualizado
+            placeholder="Buscar por nome ou habilidade..."
             className="p-3 rounded-lg border bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-700 md:col-span-2 lg:col-span-1"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
@@ -112,7 +108,6 @@ export default function ProfileList({ allProfiles }) {
             value={cityFilter}
             onChange={(e) => setCityFilter(e.target.value)}
           >
-            {/* Texto atualizado */}
             <option value="">Todas as Localizações</option>
             {uniqueCities.map(city => (
               <option key={city} value={city}>{city}</option>
