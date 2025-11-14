@@ -12,54 +12,42 @@ export default function ProfileList({ allProfiles }) {
   const [isDark, setIsDark] = useState(false);
   const [sortOrder, setSortOrder] = useState('asc');
 
-  // Listas de filtros dinâmicos
   const uniqueAreas = useMemo(() => {
-    // Esta chave 'area' ainda está correta no JSON novo
     const allAreas = allProfiles.map(profile => profile.area);
     return [...new Set(allAreas)].sort(); 
   }, [allProfiles]);
 
   const uniqueCities = useMemo(() => {
-    // 'profile.localizacao'
     const allCities = allProfiles.map(profile => profile.localizacao);
     return [...new Set(allCities)].sort();
   }, [allProfiles]);
   
-  // Efeito para o Dark Mode
   useEffect(() => {
     if (isDark) {
       document.documentElement.classList.add('dark');
     } else {
       document.documentElement.classList.remove('dark');
     }
-  }, [isDark]); // Roda toda vez que 'isDark' mudar
+  }, [isDark]); 
 
-  // Lógica de Filtro e Ordenação
   const filteredAndSortedProfiles = useMemo(() => {
     
     const filtered = profiles.filter(profile => {
-      // 'profile.nome'
       const nameMatch = profile.nome.toLowerCase().includes(searchTerm.toLowerCase());
       
-      // 'profile.habilidadesTecnicas'
       const skillMatch = profile.habilidadesTecnicas.some(skill => skill.toLowerCase().includes(searchTerm.toLowerCase()));
       
-      // 'profile.area'
       const areaMatch = areaFilter === '' || profile.area === areaFilter;
       
-      // 'profile.localizacao'
       const cityMatch = cityFilter === '' || profile.localizacao === cityFilter;
       
       return (nameMatch || skillMatch) && areaMatch && cityMatch;
     });
 
-    // Lógica de Ordenação (Sort)
     const sorted = [...filtered].sort((a, b) => {
       if (sortOrder === 'asc') {
-        // 'a.nome'
         return a.nome.localeCompare(b.nome); 
       } else {
-        // 'b.nome'
         return b.nome.localeCompare(a.nome);
       }
     });
@@ -69,17 +57,15 @@ export default function ProfileList({ allProfiles }) {
 
   return (
     <>
-      {/* Cabeçalho e Controles */}
       <header className="mb-8">
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-4xl font-bold text-blue-600 dark:text-blue-400">
-            DevConnect (Next.js)
+            DevConnect
           </h1>
           
           <button 
             onClick={() => setIsDark(!isDark)} 
-            className="p-2 rounded-full bg-gray-200 dark:bg-gray-700"
-          >
+            className="p-2 rounded-full bg-gray-200 dark:bg-gray-700">
             {isDark ? '☀️' : '🌙'}
           </button>
 
@@ -122,7 +108,6 @@ export default function ProfileList({ allProfiles }) {
         </div>
       </header>
 
-      {/* Lista de Perfis */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {filteredAndSortedProfiles.map(profile => (
           <ProfileCard 
