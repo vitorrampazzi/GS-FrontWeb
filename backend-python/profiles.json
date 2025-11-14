@@ -175,52 +175,51 @@
   },
   {
     "id": 4,
-    "nome": "Ana Clara Silva",
+    "nome": "Daniel Moreira",
     "foto": "https://i.pravatar.cc/150?img=4",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
+    "cargo": "Cientista de Dados",
+    "resumo": "Apaixonado por transformar dados em insights acionáveis. Especialista em Python, R e Machine Learning.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Dados",
     "habilidadesTecnicas": [
-      "React",
-      "Next.js",
-      "Node.js",
       "Python",
+      "R",
       "SQL",
-      "AWS"
+      "Pandas",
+      "Scikit-learn",
+      "Tableau"
     ],
     "softSkills": [
+      "Pensamento Crítico",
+      "Curiosidade",
       "Comunicação",
-      "Liderança",
-      "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Storytelling com Dados"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
-        "inicio": "2022-01",
+        "empresa": "Data Insights",
+        "cargo": "Cientista de Dados",
+        "inicio": "2021-05",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Desenvolvimento de modelos preditivos para retenção de clientes e análise de comportamento de usuário."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
+        "curso": "Mestrado em Ciência da Computação",
+        "instituicao": "UFMG",
+        "ano": 2021
       }
     ],
     "projetos": [
       {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
+        "titulo": "Análise Preditiva de Churn",
+        "link": "https://github.com/daniel/churn-analysis",
+        "descricao": "Modelo de ML para prever a probabilidade de um cliente cancelar o serviço."
       }
     ],
     "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
+      "Google Data Analytics Professional Certificate"
     ],
     "idiomas": [
       {
@@ -229,57 +228,53 @@
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "Machine Learning",
+      "Processamento de Linguagem Natural",
+      "Big Data"
     ]
   },
   {
     "id": 5,
-    "nome": "Bruno Costa",
+    "nome": "Eduarda Lima",
     "foto": "https://i.pravatar.cc/150?img=5",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
-    "localizacao": "Recife/PE",
-    "area": "Design",
+    "cargo": "Engenheira DevOps Pleno",
+    "resumo": "Focada em automação de infraestrutura (IaC), CI/CD e monitoramento de performance em nuvem.",
+    "localizacao": "Curitiba/PR",
+    "area": "DevOps",
     "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "Ansible",
+      "Jenkins",
+      "GCP"
     ],
     "softSkills": [
-      "Empatia",
-      "Criatividade",
       "Colaboração",
-      "Comunicação Visual"
+      "Resolução de Problemas",
+      "Proatividade",
+      "Adaptabilidade"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
+        "empresa": "CloudWay",
+        "cargo": "DevOps Engineer",
+        "inicio": "2020-11",
         "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "descricao": "Manutenção de pipelines CI/CD e gerenciamento de clusters Kubernetes em produção."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
-        "ano": 2017
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUCPR",
+        "ano": 2019
       }
     ],
-    "projetos": [
-      {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
-      }
-    ],
+    "projetos": [],
     "certificacoes": [
-      "Certified UX Professional (NN/g)"
+      "Google Cloud Certified - Professional Cloud DevOps Engineer",
+      "CKA - Certified Kubernetes Administrator"
     ],
     "idiomas": [
       {
@@ -288,113 +283,109 @@
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "Infraestrutura como Código (IaC)",
+      "SRE",
+      "Segurança em Nuvem"
     ]
   },
   {
     "id": 6,
-    "nome": "Carla Dias",
+    "nome": "Fábio Mendes",
     "foto": "https://i.pravatar.cc/150?img=6",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "Desenvolvedor Back-End Sênior",
+    "resumo": "Arquiteto de software com 10 anos de experiência em Java, Spring Boot e microserviços. Foco em alta performance.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "Java",
+      "Spring Boot",
+      "Kafka",
+      "RabbitMQ",
+      "PostgreSQL",
+      "Microserviços"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
-      "Organização",
-      "Gestão de Stakeholders"
+      "Liderança Técnica",
+      "Mentoria",
+      "Visão Sistêmica",
+      "Negociação"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
+        "empresa": "Fintech Pag",
+        "cargo": "Desenvolvedor Back-End Sênior",
+        "inicio": "2018-01",
         "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "descricao": "Desenho e implementação de arquitetura de microserviços para processamento de pagamentos."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
-        "ano": 2020
+        "curso": "Ciência da Computação",
+        "instituicao": "UFRGS",
+        "ano": 2014
       }
     ],
     "projetos": [],
     "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
+      "Oracle Certified Professional, Java SE 11 Developer"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
         "nivel": "Fluente"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
+      "Arquitetura de Software",
+      "Sistemas Distribuídos",
+      "Mercado Financeiro"
     ]
   },
   {
     "id": 7,
-    "nome": "Ana Clara Silva",
+    "nome": "Gabriela Alves",
     "foto": "https://i.pravatar.cc/150?img=7",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
+    "cargo": "Especialista em SEO",
+    "resumo": "Especialista em Marketing Digital com foco em SEO técnico e estratégia de conteúdo para aumento de tráfego orgânico.",
     "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
+    "area": "Marketing",
     "habilidadesTecnicas": [
-      "React",
-      "Next.js",
-      "Node.js",
-      "Python",
-      "SQL",
-      "AWS"
+      "SEO Técnico",
+      "Google Analytics",
+      "Semrush",
+      "Ahrefs",
+      "Content Marketing"
     ],
     "softSkills": [
+      "Analítica",
+      "Criatividade",
       "Comunicação",
-      "Liderança",
-      "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Gestão de Tempo"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
-        "inicio": "2022-01",
+        "empresa": "Agência Digital Boost",
+        "cargo": "Especialista em SEO",
+        "inicio": "2020-02",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Responsável pela estratégia de SEO de clientes de e-commerce, dobrando o tráfego orgânico em 18 meses."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
+        "curso": "Comunicação Social - Publicidade",
+        "instituicao": "Mackenzie",
+        "ano": 2018
       }
     ],
-    "projetos": [
-      {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
-      }
-    ],
+    "projetos": [],
     "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
+      "Google Analytics Individual Qualification (IQ)"
     ],
     "idiomas": [
       {
@@ -403,579 +394,544 @@
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "SEO",
+      "Marketing de Conteúdo",
+      "Inteligência Artificial em Marketing"
     ]
   },
   {
     "id": 8,
-    "nome": "Bruno Costa",
+    "nome": "Heitor Campos",
     "foto": "https://i.pravatar.cc/150?img=8",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
-    "localizacao": "Recife/PE",
-    "area": "Design",
+    "cargo": "Product Manager (PM)",
+    "resumo": "Gerente de Produto focado em B2B SaaS, com experiência em discovery de produto e gestão de roadmap.",
+    "localizacao": "Florianópolis/SC",
+    "area": "Gestão",
     "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
+      "Product Discovery",
+      "Roadmapping",
+      "Metodologias Ágeis",
+      "Jira",
+      "Análise de Métricas"
     ],
     "softSkills": [
       "Empatia",
-      "Criatividade",
-      "Colaboração",
-      "Comunicação Visual"
+      "Liderança",
+      "Negociação",
+      "Gestão de Stakeholders"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
+        "empresa": "SaaSTech",
+        "cargo": "Product Manager",
+        "inicio": "2021-06",
         "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "descricao": "Definição da visão e estratégia do produto, priorização de backlog e acompanhamento de KPIs."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
+        "curso": "Administração de Empresas",
+        "instituicao": "ESAG/UDESC",
         "ano": 2017
       }
     ],
-    "projetos": [
-      {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
-      }
-    ],
+    "projetos": [],
     "certificacoes": [
-      "Certified UX Professional (NN/g)"
+      "CSPO - Certified Scrum Product Owner"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Avançado"
+        "nivel": "Fluente"
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "Gestão de Produto",
+      "SaaS",
+      "UX Strategy"
     ]
   },
   {
     "id": 9,
-    "nome": "Carla Dias",
+    "nome": "Isabela Martins",
     "foto": "https://i.pravatar.cc/150?img=9",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "Tech Recruiter (Pleno)",
+    "resumo": "Especialista em Talent Acquisition focada em perfis de tecnologia (Engenharia e Dados).",
+    "localizacao": "São Paulo/SP",
+    "area": "Recursos Humanos",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "Recrutamento Técnico",
+      "Sourcing",
+      "LinkedIn Recruiter",
+      "ATS (Gupy, Lever)",
+      "Entrevista por Competências"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
+      "Comunicação",
+      "Empatia",
       "Organização",
-      "Gestão de Stakeholders"
+      "Persuasão"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
+        "empresa": "HireTech",
+        "cargo": "Tech Recruiter",
+        "inicio": "2022-03",
         "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "descricao": "Condução de processos seletivos de ponta a ponta para startups de tecnologia."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
+        "curso": "Psicologia",
+        "instituicao": "PUC-SP",
         "ano": 2020
       }
     ],
     "projetos": [],
     "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
+      "Certified Tech Recruiter (CTR)"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Fluente"
+        "nivel": "Avançado"
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
+      "Recrutamento Tech",
+      "Employer Branding",
+      "Diversidade e Inclusão"
     ]
   },
   {
     "id": 10,
-    "nome": "Ana Clara Silva",
+    "nome": "João Pedro Oliveira",
     "foto": "https://i.pravatar.cc/150?img=10",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
-    "localizacao": "São Paulo/SP",
+    "cargo": "Desenvolvedor Front-End Júnior",
+    "resumo": "Entusiasta de React e TypeScript em transição de carreira, buscando a primeira oportunidade em desenvolvimento web.",
+    "localizacao": "Brasília/DF",
     "area": "Desenvolvimento",
     "habilidadesTecnicas": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
       "React",
-      "Next.js",
-      "Node.js",
-      "Python",
-      "SQL",
-      "AWS"
+      "TypeScript",
+      "Git"
     ],
     "softSkills": [
-      "Comunicação",
-      "Liderança",
-      "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Curiosidade",
+      "Aprendizado Rápido",
+      "Colaboração",
+      "Resiliência"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
-        "inicio": "2022-01",
+        "empresa": "Autônomo (Freelancer)",
+        "cargo": "Desenvolvedor Web",
+        "inicio": "2023-01",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Desenvolvimento de landing pages e pequenos sites institucionais para clientes locais."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "UNICESUMAR",
+        "ano": 2024
       }
     ],
     "projetos": [
       {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
+        "titulo": "Clone do Twitter",
+        "link": "https://github.com/jp/twitter-clone",
+        "descricao": "Projeto de estudo completo com React, Firebase e TailwindCSS."
       }
     ],
-    "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
-    ],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Fluente"
+        "nivel": "Intermediário"
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "React",
+      "TypeScript",
+      "Acessibilidade Web"
     ]
   },
   {
     "id": 11,
-    "nome": "Bruno Costa",
+    "nome": "Karina Andrade",
     "foto": "https://i.pravatar.cc/150?img=11",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
-    "localizacao": "Recife/PE",
-    "area": "Design",
+    "cargo": "Engenheira de Dados Sênior",
+    "resumo": "Especialista em arquitetura de dados e pipelines de ETL/ELT em ambientes de Big Data. Ampla experiência com AWS.",
+    "localizacao": "São Paulo/SP",
+    "area": "Dados",
     "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
+      "Python",
+      "SQL",
+      "Apache Spark",
+      "AWS (S3, Redshift, Glue)",
+      "Airflow"
     ],
     "softSkills": [
-      "Empatia",
-      "Criatividade",
-      "Colaboração",
-      "Comunicação Visual"
+      "Liderança Técnica",
+      "Visão de Negócios",
+      "Mentoria",
+      "Organização"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
+        "empresa": "BigData Corp",
+        "cargo": "Engenheira de Dados Sênior",
+        "inicio": "2019-07",
         "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "descricao": "Liderança do time de engenharia de dados, responsável pela ingestão e processamento de terabytes de dados."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
+        "curso": "Engenharia da Computação",
+        "instituicao": "USP",
         "ano": 2017
       }
     ],
-    "projetos": [
-      {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
-      }
-    ],
+    "projetos": [],
     "certificacoes": [
-      "Certified UX Professional (NN/g)"
+      "AWS Certified Data Analytics - Specialty"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Avançado"
+        "nivel": "Fluente"
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "Big Data",
+      "Arquitetura de Dados",
+      "Data Lakehouse"
     ]
   },
   {
     "id": 12,
-    "nome": "Carla Dias",
+    "nome": "Lucas Guimarães",
     "foto": "https://i.pravatar.cc/150?img=12",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "Desenvolvedor Full Stack Pleno",
+    "resumo": "Focado em .NET Core para o back-end e Angular para o front-end, atuando em projetos para o setor bancário.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "C#",
+      ".NET Core",
+      "Angular",
+      "TypeScript",
+      "SQL Server",
+      "Azure"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
-      "Organização",
-      "Gestão de Stakeholders"
+      "Resolução de Problemas",
+      "Trabalho em Equipe",
+      "Comunicação",
+      "Foco no Resultado"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
+        "empresa": "Banco Digital XYZ",
+        "cargo": "Desenvolvedor Full Stack Pleno",
+        "inicio": "2021-02",
         "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "descricao": "Desenvolvimento e manutenção de funcionalidades do Internet Banking e APIs de integração."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
-        "ano": 2020
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC Minas",
+        "ano": 2019
       }
     ],
     "projetos": [],
     "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
+      "Microsoft Certified: Azure Fundamentals (AZ-900)"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Fluente"
+        "nivel": "Avançado"
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
       "Fintechs",
-      "Liderança Feminina"
+      "Arquitetura .NET",
+      "Computação em Nuvem"
     ]
   },
   {
     "id": 13,
-    "nome": "Ana Clara Silva",
+    "nome": "Mariana Nogueira",
     "foto": "https://i.pravatar.cc/150?img=13",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
+    "cargo": "Product Designer Sênior",
+    "resumo": "Designer de Produto com 7 anos de experiência, liderando projetos de ponta a ponta, desde a pesquisa até a UI final.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Design",
     "habilidadesTecnicas": [
-      "React",
-      "Next.js",
-      "Node.js",
-      "Python",
-      "SQL",
-      "AWS"
+      "Figma",
+      "Design System",
+      "User Research",
+      "Prototipação",
+      "UX Strategy"
     ],
     "softSkills": [
-      "Comunicação",
       "Liderança",
-      "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Empatia",
+      "Comunicação",
+      "Visão Estratégica"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
-        "inicio": "2022-01",
+        "empresa": "HealthTech",
+        "cargo": "Product Designer Sênior",
+        "inicio": "2020-01",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Líder de design da tribo de pacientes, responsável pela evolução do aplicativo principal."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
+        "curso": "Desenho Industrial",
+        "instituicao": "UFRJ",
+        "ano": 2017
       }
     ],
     "projetos": [
       {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
+        "titulo": "Redesign App de Saúde",
+        "link": "https://behance.net/mariana/healthapp",
+        "descricao": "Estudo de caso completo sobre o redesign da jornada do paciente."
       }
     ],
-    "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
-    ],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
         "nivel": "Fluente"
+      },
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "Design de Produto",
+      "HealthTech",
+      "Design Ops"
     ]
   },
   {
     "id": 14,
-    "nome": "Bruno Costa",
+    "nome": "Nilton Santos",
     "foto": "https://i.pravatar.cc/150?img=14",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
-    "localizacao": "Recife/PE",
-    "area": "Design",
+    "cargo": "Arquiteto de Soluções Cloud",
+    "resumo": "Especialista em desenho de arquiteturas de nuvem resilientes e escaláveis na AWS, com foco em migração de sistemas.",
+    "localizacao": "São Paulo/SP",
+    "area": "DevOps",
     "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
+      "AWS",
+      "Terraform",
+      "Arquitetura de Microserviços",
+      "Redes",
+      "Segurança"
     ],
     "softSkills": [
-      "Empatia",
-      "Criatividade",
-      "Colaboração",
-      "Comunicação Visual"
+      "Visão Estratégica",
+      "Comunicação",
+      "Negociação",
+      "Liderança"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
+        "empresa": "AWS Premier Partner",
+        "cargo": "Arquiteto de Soluções Cloud",
+        "inicio": "2018-05",
         "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "descricao": "Desenho de soluções de migração para nuvem (lift-and-shift e refatoração) para grandes clientes."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
-        "ano": 2017
+        "curso": "Engenharia de Redes",
+        "instituicao": "Anhembi Morumbi",
+        "ano": 2015
       }
     ],
-    "projetos": [
-      {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
-      }
-    ],
+    "projetos": [],
     "certificacoes": [
-      "Certified UX Professional (NN/g)"
+      "AWS Certified Solutions Architect - Professional",
+      "AWS Certified Security - Specialty"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Avançado"
+        "nivel": "Fluente"
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "Cloud Computing",
+      "Arquitetura Serverless",
+      "FinOps"
     ]
   },
   {
     "id": 15,
-    "nome": "Carla Dias",
+    "nome": "Olívia Pereira",
     "foto": "https://i.pravatar.cc/150?img=15",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "Analista de BI Pleno",
+    "resumo": "Focada em transformar dados em dashboards e relatórios claros no Power BI para apoiar a tomada de decisão.",
+    "localizacao": "Curitiba/PR",
+    "area": "Dados",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "Power BI",
+      "SQL",
+      "DAX",
+      "ETL",
+      "Excel Avançado"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
+      "Analítica",
       "Organização",
-      "Gestão de Stakeholders"
+      "Comunicação",
+      "Foco no Detalhe"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
+        "empresa": "Varejo S.A.",
+        "cargo": "Analista de BI",
+        "inicio": "2021-08",
         "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "descricao": "Criação e manutenção de dashboards de vendas, logística e finanças para a diretoria."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
+        "curso": "Estatística",
+        "instituicao": "UFPR",
         "ano": 2020
       }
     ],
     "projetos": [],
     "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
+      "Microsoft Certified: Data Analyst Associate (PL-300)"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Fluente"
+        "nivel": "Avançado"
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
+      "Business Intelligence",
+      "Visualização de Dados",
+      "Data Storytelling"
     ]
   },
   {
     "id": 16,
-    "nome": "Ana Clara Silva",
+    "nome": "Pedro Henrique Ramos",
     "foto": "https://i.pravatar.cc/150?img=16",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
-    "localizacao": "São Paulo/SP",
+    "cargo": "Desenvolvedor Mobile (Android/Kotlin)",
+    "resumo": "Engenheiro de software com 6 anos de experiência em desenvolvimento nativo Android com Kotlin e Java.",
+    "localizacao": "Recife/PE",
     "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "React",
-      "Next.js",
-      "Node.js",
-      "Python",
-      "SQL",
-      "AWS"
+      "Kotlin",
+      "Java",
+      "Android SDK",
+      "Jetpack Compose",
+      "Arquitetura MVVM"
     ],
     "softSkills": [
-      "Comunicação",
-      "Liderança",
       "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Trabalho em Equipe",
+      "Comunicação",
+      "Foco na Qualidade"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
-        "inicio": "2022-01",
+        "empresa": "AppFactory",
+        "cargo": "Desenvolvedor Android Sênior",
+        "inicio": "2020-01",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Desenvolvimento do app de delivery da empresa, focado em performance e usabilidade."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
+        "curso": "Ciência da Computação",
+        "instituicao": "CIn/UFPE",
+        "ano": 2018
       }
     ],
-    "projetos": [
-      {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
-      }
-    ],
+    "projetos": [],
     "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
+      "Associate Android Developer (Google)"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Fluente"
+        "nivel": "Avançado"
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "Desenvolvimento Mobile",
+      "Kotlin Multiplatform",
+      "UI/UX Mobile"
     ]
   },
   {
     "id": 17,
-    "nome": "Bruno Costa",
+    "nome": "Quitória Soares",
     "foto": "https://i.pravatar.cc/150?img=17",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
-    "localizacao": "Recife/PE",
-    "area": "Design",
+    "cargo": "Scrum Master",
+    "resumo": "Facilitadora de cerimônias ágeis, com foco em remover impedimentos e garantir a alta performance de times de desenvolvimento.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Gestão",
     "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
+      "Scrum",
+      "Kanban",
+      "Jira",
+      "Confluence",
+      "Métricas Ágeis"
     ],
     "softSkills": [
+      "Facilitação",
+      "Comunicação",
       "Empatia",
-      "Criatividade",
-      "Colaboração",
-      "Comunicação Visual"
+      "Liderança Servidora"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
+        "empresa": "AgileNow Consultoria",
+        "cargo": "Scrum Master",
+        "inicio": "2021-03",
         "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "descricao": "Atuação como SM para 3 squads de desenvolvimento em um grande cliente do setor de seguros."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
-        "ano": 2017
+        "curso": "Pós-graduação em Gestão Ágil de Projetos",
+        "instituicao": "FIAP",
+        "ano": 2021
       }
     ],
-    "projetos": [
-      {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
-      }
-    ],
+    "projetos": [],
     "certificacoes": [
-      "Certified UX Professional (NN/g)"
+      "PSM I - Professional Scrum Master",
+      "CSM - Certified ScrumMaster"
     ],
     "idiomas": [
       {
@@ -984,53 +940,51 @@
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "Agilidade",
+      "Coaching de Times",
+      "Agilidade em Escala (SAFe)"
     ]
   },
   {
     "id": 18,
-    "nome": "Carla Dias",
+    "nome": "Rafael Albuquerque",
     "foto": "https://i.pravatar.cc/150?img=18",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "Desenvolvedor Python Sênior",
+    "resumo": "Especialista em Python com foco em APIs (Django/Flask) e processamento de dados. 8 anos de experiência.",
+    "localizacao": "Salvador/BA",
+    "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "Python",
+      "Django",
+      "Flask",
+      "FastAPI",
+      "Pandas",
+      "PostgreSQL"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
-      "Organização",
-      "Gestão de Stakeholders"
+      "Liderança Técnica",
+      "Mentoria",
+      "Resolução de Problemas",
+      "Comunicação"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
+        "empresa": "PyTech",
+        "cargo": "Desenvolvedor Python Sênior",
+        "inicio": "2019-01",
         "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "descricao": "Liderança técnica na criação de APIs RESTful para integração de sistemas e análise de dados."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
-        "ano": 2020
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFBA",
+        "ano": 2016
       }
     ],
     "projetos": [],
-    "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
-    ],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
@@ -1038,234 +992,217 @@
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
+      "APIs",
+      "Processamento de Dados",
+      "Inteligência Artificial"
     ]
   },
   {
     "id": 19,
-    "nome": "Ana Clara Silva",
+    "nome": "Sofia Rodrigues",
     "foto": "https://i.pravatar.cc/150?img=19",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
-    "localizacao": "São Paulo/SP",
+    "cargo": "Desenvolvedora Front-End Pleno",
+    "resumo": "Focada em criar interfaces ricas e acessíveis com Vue.js e Nuxt.js. 4 anos de experiência.",
+    "localizacao": "Porto Alegre/RS",
     "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "React",
-      "Next.js",
-      "Node.js",
-      "Python",
-      "SQL",
-      "AWS"
+      "Vue.js",
+      "Nuxt.js",
+      "TypeScript",
+      "JavaScript",
+      "CSS (Sass)",
+      "Acessibilidade"
     ],
     "softSkills": [
-      "Comunicação",
-      "Liderança",
-      "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Criatividade",
+      "Trabalho em Equipe",
+      "Atenção aos Detalhes",
+      "Comunicação"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
+        "empresa": "E-commerce Now",
+        "cargo": "Desenvolvedora Front-End",
         "inicio": "2022-01",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Desenvolvimento e manutenção da loja virtual, com foco em performance e acessibilidade."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
+        "curso": "Design Digital",
+        "instituicao": "PUCRS",
+        "ano": 2020
       }
     ],
     "projetos": [
       {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
+        "titulo": "Portfólio Pessoal",
+        "link": "https://github.com/sofia/portfolio",
+        "descricao": "Portfólio de projetos desenvolvido com Nuxt.js e deploy no Netlify."
       }
     ],
-    "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
-    ],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Fluente"
+        "nivel": "Avançado"
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "Vue.js",
+      "Acessibilidade Web",
+      "Design Systems"
     ]
   },
   {
     "id": 20,
-    "nome": "Bruno Costa",
+    "nome": "Thiago Gonçalves",
     "foto": "https://i.pravatar.cc/150?img=20",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
-    "localizacao": "Recife/PE",
-    "area": "Design",
+    "cargo": "Tech Lead",
+    "resumo": "Líder técnico com background de Full Stack (React/Node), responsável por 2 squads e pela definição de arquitetura.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
+      "React",
+      "Node.js",
+      "TypeScript",
+      "Arquitetura de Microserviços",
+      "AWS",
+      "Liderança"
     ],
     "softSkills": [
-      "Empatia",
-      "Criatividade",
-      "Colaboração",
-      "Comunicação Visual"
+      "Liderança",
+      "Mentoria",
+      "Comunicação",
+      "Visão Estratégica"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
+        "empresa": "ScaleUp",
+        "cargo": "Tech Lead",
+        "inicio": "2021-10",
         "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "descricao": "Liderança técnica, code reviews, definição de arquitetura e gestão de carreira dos desenvolvedores do time."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
-        "ano": 2017
+        "curso": "Ciência da Computação",
+        "instituicao": "Unicamp",
+        "ano": 2015
       }
     ],
-    "projetos": [
-      {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
-      }
-    ],
+    "projetos": [],
     "certificacoes": [
-      "Certified UX Professional (NN/g)"
+      "AWS Certified Solutions Architect - Associate"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Avançado"
+        "nivel": "Fluente"
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "Liderança Técnica",
+      "Arquitetura de Software",
+      "Sistemas Escaláveis"
     ]
   },
   {
     "id": 21,
-    "nome": "Carla Dias",
+    "nome": "Ulisses Ferraz",
     "foto": "https://i.pravatar.cc/150?img=21",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "Analista de Segurança da Informação",
+    "resumo": "Especialista em segurança ofensiva (Pentest) e análise de vulnerabilidades em aplicações web e infraestrutura.",
+    "localizacao": "Brasília/DF",
+    "area": "Segurança",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "Pentest",
+      "OWASP Top 10",
+      "Nmap",
+      "Metasploit",
+      "Burp Suite",
+      "Redes"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
-      "Organização",
-      "Gestão de Stakeholders"
+      "Pensamento Crítico",
+      "Atenção aos Detalhes",
+      "Ética",
+      "Comunicação Técnica"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
+        "empresa": "SecureLabs",
+        "cargo": "Analista de Segurança (Pentester)",
+        "inicio": "2020-07",
         "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "descricao": "Execução de testes de intrusão em clientes do setor financeiro e governo."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
-        "ano": 2020
+        "curso": "Segurança da Informação",
+        "instituicao": "Senac",
+        "ano": 2019
       }
     ],
     "projetos": [],
     "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
+      "OSCP - Offensive Security Certified Professional",
+      "CEH - Certified Ethical Hacker"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Fluente"
+        "nivel": "Avançado"
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
+      "Segurança Ofensiva",
+      "Red Team",
+      "Forence Digital"
     ]
   },
   {
     "id": 22,
-    "nome": "Ana Clara Silva",
+    "nome": "Vitória Bastos",
     "foto": "https://i.pravatar.cc/150?img=22",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
+    "cargo": "UX Writer / Content Designer",
+    "resumo": "Focada em criar textos claros, concisos e úteis para produtos digitais, guiando o usuário pela interface.",
     "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
+    "area": "Design",
     "habilidadesTecnicas": [
-      "React",
-      "Next.js",
-      "Node.js",
-      "Python",
-      "SQL",
-      "AWS"
+      "UX Writing",
+      "Content Design",
+      "Microcopy",
+      "Testes de Usabilidade",
+      "Figma"
     ],
     "softSkills": [
+      "Empatia",
       "Comunicação",
-      "Liderança",
-      "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Colaboração",
+      "Atenção aos Detalhes"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
+        "empresa": "Digital Bank",
+        "cargo": "UX Writer",
         "inicio": "2022-01",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Definição do tom de voz e escrita de todo o fluxo do aplicativo, desde o onboarding até as transações."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
+        "curso": "Jornalismo",
+        "instituicao": "Cásper Líbero",
+        "ano": 2018
       }
     ],
-    "projetos": [
-      {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
-      }
-    ],
-    "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
-    ],
+    "projetos": [],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
@@ -1273,58 +1210,51 @@
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "UX Writing",
+      "Design de Conteúdo",
+      "Linguagem Simples"
     ]
   },
   {
     "id": 23,
-    "nome": "Bruno Costa",
+    "nome": "Wagner Rocha",
     "foto": "https://i.pravatar.cc/150?img=23",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
-    "localizacao": "Recife/PE",
-    "area": "Design",
+    "cargo": "Desenvolvedor Mobile (iOS/Swift)",
+    "resumo": "Engenheiro de software focado em ecossistema Apple, com 5 anos de experiência em Swift, SwiftUI e UIKit.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
+      "Swift",
+      "SwiftUI",
+      "UIKit",
+      "Combine",
+      "XCTest",
+      "Arquitetura MVVM-C"
     ],
     "softSkills": [
-      "Empatia",
-      "Criatividade",
-      "Colaboração",
-      "Comunicação Visual"
+      "Foco na Qualidade",
+      "Resolução de Problemas",
+      "Trabalho em Equipe",
+      "Comunicação"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
+        "empresa": "RetailApp",
+        "cargo": "Desenvolvedor iOS Pleno",
+        "inicio": "2021-04",
         "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "descricao": "Desenvolvimento e manutenção do aplicativo de e-commerce da empresa, focado em novas funcionalidades."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
-        "ano": 2017
+        "curso": "Engenharia de Software",
+        "instituicao": "PUC Minas",
+        "ano": 2019
       }
     ],
-    "projetos": [
-      {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
-      }
-    ],
-    "certificacoes": [
-      "Certified UX Professional (NN/g)"
-    ],
+    "projetos": [],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
@@ -1332,226 +1262,217 @@
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "Desenvolvimento iOS",
+      "SwiftUI",
+      "Performance de Apps"
     ]
   },
   {
     "id": 24,
-    "nome": "Carla Dias",
+    "nome": "Ximena Vargas",
     "foto": "https://i.pravatar.cc/150?img=24",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "HR Business Partner (HRBP)",
+    "resumo": "Parceira de negócios de RH, atuando como ponto focal para áreas de tecnologia e produto, apoiando líderes e equipes.",
+    "localizacao": "São Paulo/SP",
+    "area": "Recursos Humanos",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "Gestão de Desempenho",
+      "Plano de Carreira",
+      "Clima Organizacional",
+      "Mediação de Conflitos"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
-      "Organização",
-      "Gestão de Stakeholders"
+      "Comunicação",
+      "Empatia",
+      "Visão Estratégica",
+      "Negociação"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
+        "empresa": "Fintech Global",
+        "cargo": "HR Business Partner",
+        "inicio": "2019-05",
         "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "descricao": "HRBP para as áreas de Engenharia e Dados, suportando +200 colaboradores e gestores."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
+        "curso": "Administração de Empresas",
         "instituicao": "FGV",
-        "ano": 2020
+        "ano": 2017
       }
     ],
     "projetos": [],
-    "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
-    ],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
         "nivel": "Fluente"
+      },
+      {
+        "idioma": "Espanhol",
+        "nivel": "Fluente"
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
+      "Gestão de Pessoas",
+      "Desenvolvimento de Liderança",
+      "Cultura Organizacional"
     ]
   },
   {
     "id": 25,
-    "nome": "Ana Clara Silva",
+    "nome": "Yuri Fernandes",
     "foto": "https://i.pravatar.cc/150?img=25",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
+    "cargo": "Analista de Mídia Paga",
+    "resumo": "Especialista em gestão de campanhas de performance no Google Ads e Meta Ads, focado em otimização de ROAS.",
+    "localizacao": "Curitiba/PR",
+    "area": "Marketing",
     "habilidadesTecnicas": [
-      "React",
-      "Next.js",
-      "Node.js",
-      "Python",
-      "SQL",
-      "AWS"
+      "Google Ads",
+      "Meta Ads (Facebook/Instagram)",
+      "LinkedIn Ads",
+      "Google Analytics",
+      "Otimização de Conversão (CRO)"
     ],
     "softSkills": [
-      "Comunicação",
-      "Liderança",
-      "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Analítico",
+      "Foco no Resultado",
+      "Organização",
+      "Comunicação"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
-        "inicio": "2022-01",
+        "empresa": "Agência Perform",
+        "cargo": "Analista de Mídia Paga Sênior",
+        "inicio": "2019-08",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Gerenciamento de R$ 500k/mês em verba de mídia para clientes de e-commerce e SaaS."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
+        "curso": "Marketing",
+        "instituicao": "Universidade Positivo",
+        "ano": 2018
       }
     ],
-    "projetos": [
-      {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
-      }
-    ],
+    "projetos": [],
     "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
+      "Google Ads Search Certification",
+      "Meta Certified Digital Marketing Associate"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Fluente"
+        "nivel": "Avançado"
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "Mídia Paga",
+      "Performance",
+      "Web Analytics"
     ]
   },
   {
     "id": 26,
-    "nome": "Bruno Costa",
+    "nome": "Zara Monteiro",
     "foto": "https://i.pravatar.cc/150?img=26",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
-    "localizacao": "Recife/PE",
-    "area": "Design",
+    "cargo": "Desenvolvedora Front-End (Estágio)",
+    "resumo": "Estudante de ADS, buscando oportunidade de estágio em Front-End. Conhecimentos em HTML, CSS, JS e React (Básico).",
+    "localizacao": "Fortaleza/CE",
+    "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React (Básico)",
+      "Git"
     ],
     "softSkills": [
-      "Empatia",
-      "Criatividade",
-      "Colaboração",
-      "Comunicação Visual"
+      "Vontade de Aprender",
+      "Proatividade",
+      "Comunicação",
+      "Trabalho em Equipe"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
+        "empresa": "Projetos Acadêmicos",
+        "cargo": "Estudante",
+        "inicio": "2023-01",
         "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "descricao": "Desenvolvimento de projetos para a faculdade utilizando as tecnologias web."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
-        "ano": 2017
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "IFCE",
+        "ano": 2026
       }
     ],
     "projetos": [
       {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
+        "titulo": "Calculadora de IMC",
+        "link": "https://github.com/zara/imc-calc",
+        "descricao": "Projeto simples de estudo em React."
       }
     ],
-    "certificacoes": [
-      "Certified UX Professional (NN/g)"
-    ],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Avançado"
+        "nivel": "Intermediário"
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "Desenvolvimento Front-End",
+      "React",
+      "UI/UX"
     ]
   },
   {
     "id": 27,
-    "nome": "Carla Dias",
+    "nome": "Arthur Bernardes",
     "foto": "https://i.pravatar.cc/150?img=27",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "Engenheiro de Machine Learning",
+    "resumo": "Focado em construir e colocar em produção modelos de Machine Learning, especialmente em NLP e Visão Computacional.",
+    "localizacao": "São Paulo/SP",
+    "area": "Dados",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "Docker",
+      "MLOps"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
-      "Organização",
-      "Gestão de Stakeholders"
+      "Pensamento Crítico",
+      "Resolução de Problemas",
+      "Comunicação",
+      "Curiosidade"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
+        "empresa": "IA Tech",
+        "cargo": "Engenheiro de ML Pleno",
+        "inicio": "2021-06",
         "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "descricao": "Desenvolvimento de pipelines de MLOps para deploy e monitoramento de modelos de NLP."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
-        "ano": 2020
+        "curso": "Mestrado em Inteligência Artificial",
+        "instituicao": "USP",
+        "ano": 2021
       }
     ],
     "projetos": [],
     "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
+      "TensorFlow Developer Certificate"
     ],
     "idiomas": [
       {
@@ -1560,118 +1481,109 @@
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
+      "Inteligência Artificial",
+      "MLOps",
+      "Processamento de Linguagem Natural (NLP)"
     ]
   },
   {
     "id": 28,
-    "nome": "Ana Clara Silva",
+    "nome": "Bianca Rocha",
     "foto": "https://i.pravatar.cc/150?img=28",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
+    "cargo": "Visual Designer Pleno",
+    "resumo": "Designer com foco em identidade visual, branding e criação de assets para marketing digital e produtos.",
+    "localizacao": "Curitiba/PR",
+    "area": "Design",
     "habilidadesTecnicas": [
-      "React",
-      "Next.js",
-      "Node.js",
-      "Python",
-      "SQL",
-      "AWS"
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "Figma",
+      "Branding",
+      "Tipografia"
     ],
     "softSkills": [
-      "Comunicação",
-      "Liderança",
-      "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Criatividade",
+      "Atenção aos Detalhes",
+      "Comunicação Visual",
+      "Colaboração"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
-        "inicio": "2022-01",
+        "empresa": "Agência Criativa",
+        "cargo": "Designer Gráfico Pleno",
+        "inicio": "2020-03",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Criação de identidade visual para novos clientes e manutenção de marcas existentes."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
+        "curso": "Design Gráfico",
+        "instituicao": "Universidade Positivo",
+        "ano": 2018
       }
     ],
     "projetos": [
       {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
+        "titulo": "Portfólio de Branding",
+        "link": "https://behance.net/bianca/branding",
+        "descricao": "Coletânea de projetos de identidade visual."
       }
     ],
-    "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
-    ],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Fluente"
+        "nivel": "Avançado"
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "Branding",
+      "Design Editorial",
+      "Ilustração"
     ]
   },
   {
     "id": 29,
-    "nome": "Bruno Costa",
+    "nome": "Caio Sampaio",
     "foto": "https://i.pravatar.cc/150?img=29",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
+    "cargo": "Analista de Testes (QA) Sênior",
+    "resumo": "Especialista em automação de testes (Web e Mobile) com Selenium e Appium. Foco em qualidade de software.",
     "localizacao": "Recife/PE",
-    "area": "Design",
+    "area": "Qualidade (QA)",
     "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
+      "Selenium WebDriver",
+      "Appium",
+      "Cypress",
+      "Java",
+      "TestNG",
+      "BDD (Cucumber)"
     ],
     "softSkills": [
-      "Empatia",
-      "Criatividade",
-      "Colaboração",
-      "Comunicação Visual"
+      "Atenção aos Detalhes",
+      "Pensamento Crítico",
+      "Comunicação",
+      "Organização"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
+        "empresa": "Quality First",
+        "cargo": "Analista de QA Sênior",
+        "inicio": "2019-01",
         "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "descricao": "Liderança da frente de automação de testes, criação de frameworks de teste e mentoria de analistas mais novos."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
+        "curso": "Sistemas de Informação",
         "instituicao": "UFPE",
         "ano": 2017
       }
     ],
-    "projetos": [
-      {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
-      }
-    ],
+    "projetos": [],
     "certificacoes": [
-      "Certified UX Professional (NN/g)"
+      "ISTQB Certified Tester - Foundation Level"
     ],
     "idiomas": [
       {
@@ -1680,114 +1592,111 @@
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "Automação de Testes",
+      "Testes de Performance",
+      "DevTestOps"
     ]
   },
   {
     "id": 30,
-    "nome": "Carla Dias",
+    "nome": "Débora Nascimento",
     "foto": "https://i.pravatar.cc/150?img=30",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "Desenvolvedora Back-End (Node.js)",
+    "resumo": "Desenvolvedora focada em Node.js, TypeScript e arquitetura serverless na AWS (Lambda).",
+    "localizacao": "Florianópolis/SC",
+    "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "Node.js",
+      "TypeScript",
+      "Serverless Framework",
+      "AWS Lambda",
+      "DynamoDB",
+      "NestJS"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
-      "Organização",
-      "Gestão de Stakeholders"
+      "Resolução de Problemas",
+      "Colaboração",
+      "Aprendizado Rápido",
+      "Comunicação"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
+        "empresa": "Serverless Inc",
+        "cargo": "Desenvolvedora Back-End Pleno",
+        "inicio": "2021-09",
         "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "descricao": "Desenvolvimento de APIs e microserviços usando arquitetura serverless na AWS."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "Senac",
         "ano": 2020
       }
     ],
     "projetos": [],
     "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
+      "AWS Certified Developer - Associate"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Fluente"
+        "nivel": "Avançado"
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
+      "Node.js",
+      "Arquitetura Serverless",
+      "AWS"
     ]
   },
   {
     "id": 31,
-    "nome": "Ana Clara Silva",
+    "nome": "Elias Matos",
     "foto": "https://i.pravatar.cc/150?img=31",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
+    "cargo": "Desenvolvedor Front-End Sênior (React)",
+    "resumo": "Especialista em React, Redux, e performance de front-end. 7 anos de experiência construindo SPAs complexos.",
     "localizacao": "São Paulo/SP",
     "area": "Desenvolvimento",
     "habilidadesTecnicas": [
       "React",
+      "Redux",
+      "TypeScript",
       "Next.js",
-      "Node.js",
-      "Python",
-      "SQL",
-      "AWS"
+      "Performance Web",
+      "Testes (Jest/RTL)"
     ],
     "softSkills": [
+      "Mentoria",
+      "Liderança Técnica",
       "Comunicação",
-      "Liderança",
-      "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Resolução de Problemas"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
-        "inicio": "2022-01",
+        "empresa": "ScaleUp",
+        "cargo": "Desenvolvedor Front-End Sênior",
+        "inicio": "2020-01",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Referência técnica de front-end, responsável pelo Design System e otimizações de performance."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
+        "curso": "Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2017
       }
     ],
     "projetos": [
       {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
+        "titulo": "React Performance Checklist",
+        "link": "https://github.com/elias/react-perf",
+        "descricao": "Projeto open source com dicas de performance em React."
       }
     ],
-    "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
-    ],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
@@ -1795,173 +1704,158 @@
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "React",
+      "Performance Web",
+      "Arquitetura Front-End"
     ]
   },
   {
     "id": 32,
-    "nome": "Bruno Costa",
+    "nome": "Flávia Azevedo",
     "foto": "https://i.pravatar.cc/150?img=32",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
-    "localizacao": "Recife/PE",
-    "area": "Design",
+    "cargo": "Gerente de Produto Sênior (PM)",
+    "resumo": "Líder de produto com 9 anos de experiência, focada em estratégia de produtos B2C e crescimento (Growth).",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Gestão",
     "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
+      "Estratégia de Produto",
+      "Growth Hacking",
+      "Roadmapping",
+      "OKRs",
+      "Análise de Dados"
     ],
     "softSkills": [
-      "Empatia",
-      "Criatividade",
-      "Colaboração",
-      "Comunicação Visual"
+      "Liderança",
+      "Visão Estratégica",
+      "Gestão de Stakeholders",
+      "Comunicação"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
+        "empresa": "App B2C",
+        "cargo": "Gerente de Produto Sênior",
+        "inicio": "2018-06",
         "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "descricao": "Liderança da tribo de Aquisição e Engajamento, responsável por dobrar o MAU em 2 anos."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
-        "ano": 2017
+        "curso": "MBA em Marketing Digital",
+        "instituicao": "FGV",
+        "ano": 2016
       }
     ],
-    "projetos": [
-      {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
-      }
-    ],
+    "projetos": [],
     "certificacoes": [
-      "Certified UX Professional (NN/g)"
+      "CSPO - Certified Scrum Product Owner"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Avançado"
+        "nivel": "Fluente"
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "Gestão de Produto",
+      "Growth",
+      "Produtos B2C"
     ]
   },
   {
     "id": 33,
-    "nome": "Carla Dias",
+    "nome": "Guilherme Tavares",
     "foto": "https://i.pravatar.cc/150?img=33",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "Analista de Infraestrutura (SRE)",
+    "resumo": "Engenheiro focado em confiabilidade, escalabilidade e monitoramento de sistemas em produção. Experiência com GCP.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "DevOps",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "GCP (GKE, BigQuery)",
+      "Kubernetes",
+      "Prometheus",
+      "Grafana",
+      "Terraform",
+      "Python"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
-      "Organização",
-      "Gestão de Stakeholders"
+      "Resolução de Problemas",
+      "Pensamento Sistêmico",
+      "Colaboração",
+      "Gestão de Crises"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
+        "empresa": "Cloud Native",
+        "cargo": "Engenheiro de SRE Pleno",
         "inicio": "2021-01",
         "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "descricao": "Garantia da disponibilidade (SLA) dos serviços, automação de infraestrutura e resposta a incidentes."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
-        "ano": 2020
+        "curso": "Engenharia de Controle e Automação",
+        "instituicao": "UFMG",
+        "ano": 2019
       }
     ],
     "projetos": [],
     "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
+      "Google Cloud Certified - Professional Cloud Architect"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Fluente"
+        "nivel": "Avançado"
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
+      "SRE",
+      "Observabilidade",
+      "Kubernetes"
     ]
   },
   {
     "id": 34,
-    "nome": "Ana Clara Silva",
+    "nome": "Helena Vasconcelos",
     "foto": "https://i.pravatar.cc/150?img=34",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
+    "cargo": "Cientista de Dados Pleno",
+    "resumo": "Focada em modelos de NLP (Processamento de Linguagem Natural) e análise de sentimentos.",
+    "localizacao": "Recife/PE",
+    "area": "Dados",
     "habilidadesTecnicas": [
-      "React",
-      "Next.js",
-      "Node.js",
       "Python",
-      "SQL",
-      "AWS"
+      "Pandas",
+      "Spacy",
+      "Hugging Face",
+      "Scikit-learn",
+      "SQL"
     ],
     "softSkills": [
+      "Curiosidade",
+      "Pensamento Crítico",
       "Comunicação",
-      "Liderança",
-      "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Resolução de Problemas"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
-        "inicio": "2022-01",
+        "empresa": "Social Media Analytics",
+        "cargo": "Cientista de Dados",
+        "inicio": "2022-02",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Extração e análise de dados de redes sociais para identificação de tendências e análise de sentimento."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
+        "curso": "Ciência da Computação",
+        "instituicao": "CIn/UFPE",
+        "ano": 2020
       }
     ],
-    "projetos": [
-      {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
-      }
-    ],
-    "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
-    ],
+    "projetos": [],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
@@ -1969,58 +1863,51 @@
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "NLP",
+      "Análise de Sentimentos",
+      "IA"
     ]
   },
   {
     "id": 35,
-    "nome": "Bruno Costa",
+    "nome": "Igor Nascimento",
     "foto": "https://i.pravatar.cc/150?img=35",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
-    "localizacao": "Recife/PE",
-    "area": "Design",
+    "cargo": "Desenvolvedor Back-End (Java)",
+    "resumo": "Desenvolvedor Java/Spring Boot com 4 anos de experiência no setor financeiro, focado em APIs e microserviços.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "Kafka",
+      "SQL (Oracle)",
+      "Docker"
     ],
     "softSkills": [
-      "Empatia",
-      "Criatividade",
-      "Colaboração",
-      "Comunicação Visual"
+      "Trabalho em Equipe",
+      "Foco no Detalhe",
+      "Comunicação",
+      "Organização"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
+        "empresa": "Banco Corp",
+        "cargo": "Desenvolvedor Java Pleno",
+        "inicio": "2021-03",
         "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "descricao": "Manutenção e desenvolvimento de microserviços para o sistema de câmbio do banco."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
-        "ano": 2017
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2019
       }
     ],
-    "projetos": [
-      {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
-      }
-    ],
-    "certificacoes": [
-      "Certified UX Professional (NN/g)"
-    ],
+    "projetos": [],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
@@ -2028,52 +1915,52 @@
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "Java",
+      "Microserviços",
+      "Fintechs"
     ]
   },
   {
     "id": 36,
-    "nome": "Carla Dias",
+    "nome": "Júlia Magalhães",
     "foto": "https://i.pravatar.cc/150?img=36",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "Product Designer Pleno",
+    "resumo": "Designer focada em UX Research e testes de usabilidade para informar decisões de design de produto.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Design",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "UX Research",
+      "Testes de Usabilidade",
+      "Entrevistas com Usuários",
+      "Miro",
+      "Figma",
+      "Jornada do Usuário"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
-      "Organização",
-      "Gestão de Stakeholders"
+      "Empatia",
+      "Escuta Ativa",
+      "Curiosidade",
+      "Comunicação"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
+        "empresa": "EduTech",
+        "cargo": "Product Designer (Foco em UX Research)",
+        "inicio": "2022-01",
         "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "descricao": "Condução de pesquisas qualitativas e quantitativas para entender as necessidades dos estudantes."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
-        "ano": 2020
+        "curso": "Psicologia",
+        "instituicao": "UFMG",
+        "ano": 2018
       }
     ],
     "projetos": [],
     "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
+      "Certified UX Researcher (NN/g)"
     ],
     "idiomas": [
       {
@@ -2082,59 +1969,51 @@
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
+      "UX Research",
+      "Design Thinking",
+      "Educação"
     ]
   },
   {
     "id": 37,
-    "nome": "Ana Clara Silva",
+    "nome": "Kleber Barreto",
     "foto": "https://i.pravatar.cc/150?img=37",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
+    "cargo": "Coordenador de Marketing Digital",
+    "resumo": "Líder de marketing com 10 anos de experiência, gerenciando estratégias de Inbound, Mídia Paga e SEO.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Marketing",
     "habilidadesTecnicas": [
-      "React",
-      "Next.js",
-      "Node.js",
-      "Python",
-      "SQL",
-      "AWS"
+      "Gestão de Marketing",
+      "Inbound Marketing (HubSpot)",
+      "Google Ads",
+      "SEO",
+      "Google Analytics"
     ],
     "softSkills": [
-      "Comunicação",
       "Liderança",
-      "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Visão Estratégica",
+      "Gestão de Pessoas",
+      "Comunicação"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
-        "inicio": "2022-01",
+        "empresa": "SaaS Corp",
+        "cargo": "Coordenador de Marketing Digital",
+        "inicio": "2019-03",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Gerenciamento da equipe de marketing digital, responsável pela geração de leads B2B."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
+        "curso": "Comunicação Social",
+        "instituicao": "PUCRS",
+        "ano": 2014
       }
     ],
-    "projetos": [
-      {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
-      }
-    ],
+    "projetos": [],
     "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
+      "HubSpot Inbound Marketing Certified"
     ],
     "idiomas": [
       {
@@ -2143,173 +2022,161 @@
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "Marketing B2B",
+      "Automação de Marketing",
+      "Liderança"
     ]
   },
   {
     "id": 38,
-    "nome": "Bruno Costa",
+    "nome": "Larissa Farias",
     "foto": "https://i.pravatar.cc/150?img=38",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
-    "localizacao": "Recife/PE",
-    "area": "Design",
+    "cargo": "Desenvolvedora Front-End Júnior",
+    "resumo": "Recém-formada em ADS, apaixonada por CSS e React, buscando a primeira oportunidade de trabalho.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
+      "HTML5",
+      "CSS3 (Sass)",
+      "JavaScript (ES6+)",
+      "React",
+      "Styled-Components",
+      "Git"
     ],
     "softSkills": [
-      "Empatia",
       "Criatividade",
+      "Vontade de Aprender",
       "Colaboração",
-      "Comunicação Visual"
+      "Organização"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
+        "empresa": "Freelancer (Projetos Pessoais)",
+        "cargo": "Desenvolvedora Front-End",
+        "inicio": "2023-05",
         "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "descricao": "Criação de landing pages e clones de interfaces famosas para estudo."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
-        "ano": 2017
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "FIAP",
+        "ano": 2024
       }
     ],
     "projetos": [
       {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
+        "titulo": "Clone da Netflix",
+        "link": "https://github.com/larissa/netflix-clone",
+        "descricao": "Clone da interface da Netflix com React e The Movie DB API."
       }
     ],
-    "certificacoes": [
-      "Certified UX Professional (NN/g)"
-    ],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Avançado"
+        "nivel": "Intermediário"
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "React",
+      "Design Responsivo",
+      "CSS"
     ]
   },
   {
     "id": 39,
-    "nome": "Carla Dias",
+    "nome": "Marcos Vinícius",
     "foto": "https://i.pravatar.cc/150?img=39",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "Desenvolvedor Full Stack (PHP/Laravel)",
+    "resumo": "Desenvolvedor Sênior com 12 anos de experiência em PHP, especialista em Laravel, Vue.js e arquitetura de sistemas.",
+    "localizacao": "Curitiba/PR",
+    "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "PHP",
+      "Laravel",
+      "Vue.js",
+      "MySQL",
+      "Docker",
+      "APIs REST"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
-      "Organização",
-      "Gestão de Stakeholders"
+      "Mentoria",
+      "Resolução de Problemas",
+      "Liderança Técnica",
+      "Comunicação"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
+        "empresa": "WebDev",
+        "cargo": "Desenvolvedor Sênior (PHP)",
+        "inicio": "2017-01",
         "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "descricao": "Líder técnico do time de PHP, responsável pela manutenção de sistemas legados e criação de novos produtos."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
-        "ano": 2020
+        "curso": "Sistemas para Internet",
+        "instituicao": "UTFPR",
+        "ano": 2012
       }
     ],
     "projetos": [],
     "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
+      "Laravel Certified Developer"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Fluente"
+        "nivel": "Avançado"
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
+      "PHP",
+      "Laravel",
+      "Arquitetura de Software"
     ]
   },
   {
     "id": 40,
-    "nome": "Ana Clara Silva",
+    "nome": "Natália Borges",
     "foto": "https://i.pravatar.cc/150?img=40",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
+    "cargo": "Coordenadora de RH (People)",
+    "resumo": "Especialista em gestão de pessoas, focada em desenvolvimento de liderança, cultura e engajamento.",
     "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
+    "area": "Recursos Humanos",
     "habilidadesTecnicas": [
-      "React",
-      "Next.js",
-      "Node.js",
-      "Python",
-      "SQL",
-      "AWS"
+      "Cultura Organizacional",
+      "Gestão de Clima",
+      "Desenvolvimento de Liderança",
+      "Gestão de Desempenho"
     ],
     "softSkills": [
-      "Comunicação",
       "Liderança",
-      "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Empatia",
+      "Comunicação",
+      "Mediação"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
-        "inicio": "2022-01",
+        "empresa": "Tech Company",
+        "cargo": "Coordenadora de People",
+        "inicio": "2020-02",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Responsável pelos programas de engajamento, pesquisa de clima e desenvolvimento de líderes."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
+        "curso": "Psicologia",
+        "instituicao": "Mackenzie",
+        "ano": 2015
       }
     ],
-    "projetos": [
-      {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
-      }
-    ],
-    "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
-    ],
+    "projetos": [],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
@@ -2317,173 +2184,162 @@
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "Gestão de Pessoas",
+      "Cultura",
+      "Diversidade e Inclusão"
     ]
   },
   {
     "id": 41,
-    "nome": "Bruno Costa",
+    "nome": "Otávio Drummond",
     "foto": "https://i.pravatar.cc/150?img=41",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
-    "localizacao": "Recife/PE",
-    "area": "Design",
+    "cargo": "Desenvolvedor Full Stack (Júnior)",
+    "resumo": "Jovem desenvolvedor em início de carreira, focado em MERN Stack (MongoDB, Express, React, Node.js).",
+    "localizacao": "Salvador/BA",
+    "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
       "HTML/CSS"
     ],
     "softSkills": [
-      "Empatia",
-      "Criatividade",
+      "Aprendizado Rápido",
       "Colaboração",
-      "Comunicação Visual"
+      "Proatividade",
+      "Comunicação"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
-        "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "empresa": "Bootcamp de Programação",
+        "cargo": "Estudante (Projetos)",
+        "inicio": "2023-06",
+        "fim": "2023-12",
+        "descricao": "Desenvolvimento de projetos práticos em grupo usando a MERN stack."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
-        "ano": 2017
+        "curso": "Sistemas de Informação",
+        "instituicao": "UNIFACS",
+        "ano": 2024
       }
     ],
     "projetos": [
       {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
+        "titulo": "App de Lista de Tarefas",
+        "link": "https://github.com/otavio/todo-mern",
+        "descricao": "Projeto de estudo MERN stack com autenticação."
       }
     ],
-    "certificacoes": [
-      "Certified UX Professional (NN/g)"
-    ],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Avançado"
+        "nivel": "Intermediário"
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "JavaScript",
+      "React",
+      "Node.js"
     ]
   },
   {
     "id": 42,
-    "nome": "Carla Dias",
+    "nome": "Patrícia Ribeiro",
     "foto": "https://i.pravatar.cc/150?img=42",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "Analista de Qualidade (QA) Pleno",
+    "resumo": "Focada em testes manuais e exploratórios de aplicações web, garantindo a qualidade da entrega.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Qualidade (QA)",
     "habilidadesTecnicas": [
+      "Testes Manuais",
+      "Testes Exploratórios",
+      "SQL (Consultas)",
       "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "Testes de API (Postman)"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
-      "Organização",
-      "Gestão de Stakeholders"
+      "Atenção aos Detalhes",
+      "Pensamento Crítico",
+      "Comunicação",
+      "Organização"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
+        "empresa": "Software House",
+        "cargo": "Analista de QA Pleno",
+        "inicio": "2021-05",
         "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "descricao": "Criação de planos de teste, execução de testes funcionais e regressivos, e reporte de bugs."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "UniRitter",
         "ano": 2020
       }
     ],
     "projetos": [],
     "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
+      "ISTQB Certified Tester - Foundation Level"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Fluente"
+        "nivel": "Intermediário"
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
+      "Qualidade de Software",
+      "Testes Manuais",
+      "Início em Automação"
     ]
   },
   {
     "id": 43,
-    "nome": "Ana Clara Silva",
+    "nome": "Ricardo Mendes",
     "foto": "https://i.pravatar.cc/150?img=43",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
+    "cargo": "Desenvolvedor Back-End Sênior (Go)",
+    "resumo": "Especialista em Go (Golang) para sistemas de alta concorrência e baixa latência. Experiência com Docker e K8s.",
     "localizacao": "São Paulo/SP",
     "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "React",
-      "Next.js",
-      "Node.js",
-      "Python",
-      "SQL",
-      "AWS"
+      "Go (Golang)",
+      "gRPC",
+      "Docker",
+      "Kubernetes",
+      "Prometheus",
+      "Bancos NoSQL"
     ],
     "softSkills": [
-      "Comunicação",
-      "Liderança",
+      "Performance",
       "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Mentoria",
+      "Comunicação"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
-        "inicio": "2022-01",
+        "empresa": "Fintech de Pagamentos",
+        "cargo": "Engenheiro de Software Sênior",
+        "inicio": "2019-11",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Desenvolvimento de microserviços de core banking em Go, focados em performance."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
+        "curso": "Ciência da Computação",
+        "instituicao": "Unicamp",
+        "ano": 2016
       }
     ],
-    "projetos": [
-      {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
-      }
-    ],
-    "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
-    ],
+    "projetos": [],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
@@ -2491,58 +2347,50 @@
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "Go (Golang)",
+      "Sistemas Distribuídos",
+      "Alta Performance"
     ]
   },
   {
     "id": 44,
-    "nome": "Bruno Costa",
+    "nome": "Samara Nunes",
     "foto": "https://i.pravatar.cc/150?img=44",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
-    "localizacao": "Recife/PE",
+    "cargo": "Designer de Interação (IxD)",
+    "resumo": "Designer focada em fluxos de usuário, prototipação de alta fidelidade e microinterações.",
+    "localizacao": "Rio de Janeiro/RJ",
     "area": "Design",
     "habilidadesTecnicas": [
       "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
+      "Principle",
+      "Fluxos de Usuário",
+      "Wireframing",
+      "Microinterações"
     ],
     "softSkills": [
-      "Empatia",
       "Criatividade",
       "Colaboração",
-      "Comunicação Visual"
+      "Empatia",
+      "Atenção aos Detalhes"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
+        "empresa": "Estúdio de Design",
+        "cargo": "Designer de Interação Pleno",
+        "inicio": "2021-07",
         "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "descricao": "Desenho de fluxos de interação e protótipos navegáveis para aplicativos mobile e web."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
-        "ano": 2017
+        "curso": "Design Digital",
+        "instituicao": "UFRJ",
+        "ano": 2019
       }
     ],
-    "projetos": [
-      {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
-      }
-    ],
-    "certificacoes": [
-      "Certified UX Professional (NN/g)"
-    ],
+    "projetos": [],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
@@ -2550,226 +2398,215 @@
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "Design de Interação",
+      "Microinterações",
+      "Usabilidade"
     ]
   },
   {
     "id": 45,
-    "nome": "Carla Dias",
+    "nome": "Tiago Lacerda",
     "foto": "https://i.pravatar.cc/150?img=45",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "Analista de Dados Júnior",
+    "resumo": "Iniciando carreira em Dados, focado em SQL para extração e Tableau/Power BI para visualização.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Dados",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "SQL",
+      "Power BI",
+      "Tableau",
+      "Excel",
+      "Python (Básico)"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
+      "Analítico",
+      "Curiosidade",
       "Organização",
-      "Gestão de Stakeholders"
+      "Vontade de Aprender"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
-        "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "empresa": "Varejo Local",
+        "cargo": "Estagiário de BI",
+        "inicio": "2023-01",
+        "fim": "2023-12",
+        "descricao": "Apoio na criação de relatórios de vendas e dashboards em Power BI."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
-        "ano": 2020
+        "curso": "Engenharia de Produção",
+        "instituicao": "UFMG",
+        "ano": 2024
       }
     ],
-    "projetos": [],
+    "projetos": [
+      {
+        "titulo": "Dashboard de Vendas",
+        "link": "https://public.tableau.com/tiago",
+        "descricao": "Projeto de estudo com dados públicos de vendas."
+      }
+    ],
     "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
+      "Google Data Analytics Professional Certificate"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Fluente"
+        "nivel": "Avançado"
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
+      "Business Intelligence",
+      "SQL",
+      "Visualização de Dados"
     ]
   },
   {
     "id": 46,
-    "nome": "Ana Clara Silva",
+    "nome": "Valentina Moreira",
     "foto": "https://i.pravatar.cc/150?img=46",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
-    "localizacao": "São Paulo/SP",
+    "cargo": "Engenheira de Software (Ruby on Rails)",
+    "resumo": "Desenvolvedora Pleno com 5 anos de experiência em Ruby on Rails, RSpec e Sidekiq.",
+    "localizacao": "Florianópolis/SC",
     "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "React",
-      "Next.js",
-      "Node.js",
-      "Python",
-      "SQL",
-      "AWS"
+      "Ruby",
+      "Ruby on Rails",
+      "RSpec",
+      "Sidekiq",
+      "PostgreSQL",
+      "Heroku"
     ],
     "softSkills": [
-      "Comunicação",
-      "Liderança",
       "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Trabalho em Equipe",
+      "Comunicação",
+      "Pragmatismo"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
-        "inicio": "2022-01",
+        "empresa": "Startup SaaS",
+        "cargo": "Engenheira de Software",
+        "inicio": "2020-08",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Desenvolvimento e manutenção do produto principal da startup, construído em Rails."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2019
       }
     ],
-    "projetos": [
-      {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
-      }
-    ],
-    "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
-    ],
+    "projetos": [],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Fluente"
+        "nivel": "Avançado"
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "Ruby on Rails",
+      "Startups",
+      "Desenvolvimento Web"
     ]
   },
   {
     "id": 47,
-    "nome": "Bruno Costa",
+    "nome": "Victor Hugo Sales",
     "foto": "https://i.pravatar.cc/150?img=47",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
-    "localizacao": "Recife/PE",
-    "area": "Design",
+    "cargo": "Gerente de Projetos Digitais",
+    "resumo": "Gerente de projetos focado em agências, gerenciando o fluxo de entrega de sites, e-commerces e campanhas.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Gestão",
     "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
+      "Gestão de Projetos",
+      "Metodologias Ágeis",
+      "Jira",
+      "Trello",
+      "Gestão de Escopo"
     ],
     "softSkills": [
-      "Empatia",
-      "Criatividade",
-      "Colaboração",
-      "Comunicação Visual"
+      "Organização",
+      "Comunicação",
+      "Negociação",
+      "Gestão de Stakeholders"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
+        "empresa": "Agência Digital",
+        "cargo": "Gerente de Projetos",
+        "inicio": "2019-02",
         "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "descricao": "Gerenciamento do portfólio de projetos digitais, garantindo prazos, custos e qualidade."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
-        "ano": 2017
+        "curso": "Comunicação Social - Publicidade",
+        "instituicao": "ESPM Rio",
+        "ano": 2016
       }
     ],
-    "projetos": [
-      {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
-      }
-    ],
+    "projetos": [],
     "certificacoes": [
-      "Certified UX Professional (NN/g)"
+      "PMP - Project Management Professional"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Avançado"
+        "nivel": "Fluente"
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "Gestão de Projetos",
+      "Marketing Digital",
+      "Agilidade"
     ]
   },
   {
     "id": 48,
-    "nome": "Carla Dias",
+    "nome": "Yasmin Correia",
     "foto": "https://i.pravatar.cc/150?img=48",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "Especialista em Conteúdo (Marketing)",
+    "resumo": "Jornalista com foco em marketing de conteúdo, especialista em SEO, copywriting e estratégia de inbound.",
+    "localizacao": "São Paulo/SP",
+    "area": "Marketing",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "Marketing de Conteúdo",
+      "Copywriting",
+      "SEO",
+      "Inbound Marketing",
+      "Blog (WordPress)"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
+      "Escrita Criativa",
+      "Comunicação",
       "Organização",
-      "Gestão de Stakeholders"
+      "Pesquisa"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
+        "empresa": "EduTech",
+        "cargo": "Especialista em Conteúdo",
+        "inicio": "2020-04",
         "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "descricao": "Responsável pela estratégia de conteúdo do blog e redes sociais, focada em atração e conversão."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
-        "ano": 2020
+        "curso": "Jornalismo",
+        "instituicao": "USP",
+        "ano": 2018
       }
     ],
     "projetos": [],
     "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
+      "HubSpot Content Marketing Certified"
     ],
     "idiomas": [
       {
@@ -2778,59 +2615,53 @@
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
+      "Marketing de Conteúdo",
+      "SEO",
+      "Copywriting"
     ]
   },
   {
     "id": 49,
-    "nome": "Ana Clara Silva",
+    "nome": "Zeca Almeida",
     "foto": "https://i.pravatar.cc/150?img=49",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
+    "cargo": "Engenheiro de DevOps Sênior",
+    "resumo": "Líder técnico em DevOps, com 10 anos de experiência em automação, CI/CD, K8s e monitoramento em larga escala.",
+    "localizacao": "Home Office (Global)",
+    "area": "DevOps",
     "habilidadesTecnicas": [
-      "React",
-      "Next.js",
-      "Node.js",
-      "Python",
-      "SQL",
-      "AWS"
+      "Kubernetes",
+      "Docker",
+      "Terraform",
+      "AWS",
+      "GCP",
+      "CI/CD (GitLab CI)"
     ],
     "softSkills": [
-      "Comunicação",
-      "Liderança",
-      "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Liderança Técnica",
+      "Mentoria",
+      "Visão Sistêmica",
+      "Resolução de Problemas"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
-        "inicio": "2022-01",
+        "empresa": "Global Tech",
+        "cargo": "Engenheiro de DevOps Sênior",
+        "inicio": "2018-01",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Liderança da plataforma de infraestrutura, gerenciando clusters Kubernetes multi-regionais."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
+        "curso": "Engenharia da Computação",
+        "instituicao": "ITA",
+        "ano": 2014
       }
     ],
-    "projetos": [
-      {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
-      }
-    ],
+    "projetos": [],
     "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
+      "CKA - Certified Kubernetes Administrator",
+      "AWS Certified DevOps Engineer - Professional"
     ],
     "idiomas": [
       {
@@ -2839,58 +2670,50 @@
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "DevOps",
+      "Kubernetes",
+      "SRE"
     ]
   },
   {
     "id": 50,
-    "nome": "Bruno Costa",
+    "nome": "Amanda Guerra",
     "foto": "https://i.pravatar.cc/150?img=50",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
-    "localizacao": "Recife/PE",
-    "area": "Design",
+    "cargo": "Desenvolvedora Mobile (Flutter)",
+    "resumo": "Engenheira de software focada em desenvolvimento híbrido com Flutter e Dart. 3 anos de experiência.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
+      "Flutter",
+      "Dart",
+      "Firebase",
+      "Bloc Pattern",
+      "GetX"
     ],
     "softSkills": [
-      "Empatia",
-      "Criatividade",
       "Colaboração",
-      "Comunicação Visual"
+      "Aprendizado Rápido",
+      "Comunicação",
+      "Resolução de Problemas"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
+        "empresa": "AppDev",
+        "cargo": "Desenvolvedora Flutter Pleno",
+        "inicio": "2021-08",
         "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "descricao": "Desenvolvimento de aplicativos para Android e iOS usando uma única base de código Flutter."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
-        "ano": 2017
+        "curso": "Ciência da Computação",
+        "instituicao": "UFC",
+        "ano": 2020
       }
     ],
-    "projetos": [
-      {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
-      }
-    ],
-    "certificacoes": [
-      "Certified UX Professional (NN/g)"
-    ],
+    "projetos": [],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
@@ -2898,113 +2721,106 @@
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "Flutter",
+      "Desenvolvimento Híbrido",
+      "Dart"
     ]
   },
   {
     "id": 51,
-    "nome": "Carla Dias",
+    "nome": "Breno Linhares",
     "foto": "https://i.pravatar.cc/150?img=51",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "Analista de Suporte de TI",
+    "resumo": "Focado em suporte técnico a usuários (N1/N2), manutenção de hardware e gerenciamento de redes.",
+    "localizacao": "São Paulo/SP",
+    "area": "Infraestrutura",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "Suporte Técnico",
+      "Windows Server",
+      "Active Directory",
+      "Redes (TCP/IP)",
+      "Hardware"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
-      "Organização",
-      "Gestão de Stakeholders"
+      "Paciência",
+      "Comunicação Clara",
+      "Didática",
+      "Resolução de Problemas"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
+        "empresa": "Helpdesk Corp",
+        "cargo": "Analista de Suporte Pleno",
+        "inicio": "2019-06",
         "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "descricao": "Atendimento de chamados N2, administração de servidores Windows e rede interna."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
-        "ano": 2020
+        "curso": "Tecnólogo em Redes de Computadores",
+        "instituicao": "Senac",
+        "ano": 2018
       }
     ],
     "projetos": [],
     "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
+      "ITIL Foundation",
+      "CompTIA A+"
     ],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Fluente"
+        "nivel": "Técnico"
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
+      "Suporte de TI",
+      "Redes",
+      "Infraestrutura"
     ]
   },
   {
     "id": 52,
-    "nome": "Ana Clara Silva",
+    "nome": "Celina Fortes",
     "foto": "https://i.pravatar.cc/150?img=52",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
+    "cargo": "Analista de CRM & Automação",
+    "resumo": "Especialista em Salesforce e HubSpot, focada em automação de marketing, funis de venda e gestão de leads.",
     "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
+    "area": "Marketing",
     "habilidadesTecnicas": [
-      "React",
-      "Next.js",
-      "Node.js",
-      "Python",
-      "SQL",
-      "AWS"
+      "Salesforce",
+      "HubSpot",
+      "Automação de Marketing",
+      "Email Marketing",
+      "Gestão de Leads"
     ],
     "softSkills": [
+      "Analítica",
+      "Organização",
       "Comunicação",
-      "Liderança",
-      "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Foco no Processo"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
-        "inicio": "2022-01",
+        "empresa": "SaaS B2B",
+        "cargo": "Analista de Marketing Ops",
+        "inicio": "2021-01",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Gestão do CRM (Salesforce), criação de fluxos de automação e relatórios de funil."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
+        "curso": "Marketing",
+        "instituicao": "ESPM",
+        "ano": 2019
       }
     ],
-    "projetos": [
-      {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
-      }
-    ],
+    "projetos": [],
     "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
+      "Salesforce Certified Administrator",
+      "HubSpot Marketing Software Certified"
     ],
     "idiomas": [
       {
@@ -3013,58 +2829,56 @@
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "Marketing Ops",
+      "CRM",
+      "Salesforce"
     ]
   },
   {
     "id": 53,
-    "nome": "Bruno Costa",
+    "nome": "Davi Junqueira",
     "foto": "https://i.pravatar.cc/150?img=53",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
+    "cargo": "Desenvolvedor de Jogos (Unity)",
+    "resumo": "Desenvolvedor de jogos com 5 anos de experiência em C# e Unity, focado em jogos mobile.",
     "localizacao": "Recife/PE",
-    "area": "Design",
+    "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
+      "C#",
+      "Unity 3D",
+      "Desenvolvimento de Jogos",
+      "Otimização Mobile",
+      "Game Design (Básico)"
     ],
     "softSkills": [
-      "Empatia",
       "Criatividade",
-      "Colaboração",
-      "Comunicação Visual"
+      "Resolução de Problemas",
+      "Trabalho em Equipe",
+      "Paixão por Jogos"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
+        "empresa": "Game Studio",
+        "cargo": "Desenvolvedor de Jogos Pleno",
+        "inicio": "2020-07",
         "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "descricao": "Programação de mecânicas de jogo, integração de assets e otimização de performance para Android/iOS."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
-        "ano": 2017
+        "curso": "Jogos Digitais",
+        "instituicao": "Unicap",
+        "ano": 2019
       }
     ],
     "projetos": [
       {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
+        "titulo": "Indie Game (Pessoal)",
+        "link": "https://github.com/davi/indiegame",
+        "descricao": "Projeto pessoal de um jogo de plataforma 2D feito em Unity."
       }
     ],
-    "certificacoes": [
-      "Certified UX Professional (NN/g)"
-    ],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
@@ -3072,52 +2886,52 @@
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "Desenvolvimento de Jogos",
+      "Unity",
+      "Jogos Mobile"
     ]
   },
   {
     "id": 54,
-    "nome": "Carla Dias",
+    "nome": "Elisa Drummond",
     "foto": "https://i.pravatar.cc/150?img=54",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "Arquiteta de Software",
+    "resumo": "Especialista em desenho de arquiteturas de software escaláveis, microserviços e DDD. Background em .NET.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "Arquitetura de Software",
+      "Microserviços",
+      "Domain-Driven Design (DDD)",
+      ".NET Core",
+      "Azure",
+      "RabbitMQ"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
-      "Organização",
-      "Gestão de Stakeholders"
+      "Visão Sistêmica",
+      "Liderança Técnica",
+      "Comunicação",
+      "Negociação"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
+        "empresa": "Grande Empresa de TI",
+        "cargo": "Arquiteta de Software",
+        "inicio": "2019-01",
         "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "descricao": "Definição de padrões de arquitetura, desenho de soluções e mentoria de times de desenvolvimento."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
-        "ano": 2020
+        "curso": "Ciência da Computação",
+        "instituicao": "UFMG",
+        "ano": 2013
       }
     ],
     "projetos": [],
     "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
+      "Microsoft Certified: Azure Solutions Architect Expert (AZ-305)"
     ],
     "idiomas": [
       {
@@ -3126,292 +2940,157 @@
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
+      "Arquitetura de Software",
+      "DDD",
+      "Sistemas Distribuídos"
     ]
   },
   {
     "id": 55,
-    "nome": "Ana Clara Silva",
+    "nome": "Felipe Simões",
     "foto": "https://i.pravatar.cc/150?img=55",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
+    "cargo": "Desenvolvedor Front-End (Angular)",
+    "resumo": "Desenvolvedor Pleno focado em Angular 12+, TypeScript e RxJS para aplicações corporativas.",
     "localizacao": "São Paulo/SP",
     "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "React",
-      "Next.js",
-      "Node.js",
-      "Python",
-      "SQL",
-      "AWS"
+      "Angular",
+      "TypeScript",
+      "RxJS",
+      "NgRx",
+      "HTML/CSS (Sass)",
+      "Testes (Karma/Jasmine)"
     ],
     "softSkills": [
-      "Comunicação",
-      "Liderança",
-      "Resolução de Problemas",
-      "Trabalho em Equipe"
+      "Organização",
+      "Trabalho em Equipe",
+      "Foco na Qualidade",
+      "Comunicação"
     ],
     "experiencias": [
       {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
-        "inicio": "2022-01",
+        "empresa": "Consultoria de TI",
+        "cargo": "Desenvolvedor Angular Pleno",
+        "inicio": "2021-02",
         "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
+        "descricao": "Alocado em cliente do setor bancário, desenvolvendo novas funcionalidades para o sistema interno."
       }
     ],
     "formacao": [
       {
-        "curso": "Pós-graduação em Arquitetura de Software",
+        "curso": "Análise e Desenvolvimento de Sistemas",
         "instituicao": "FIAP",
-        "ano": 2023
+        "ano": 2019
       }
     ],
-    "projetos": [
-      {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
-      }
-    ],
-    "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
-    ],
+    "projetos": [],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Fluente"
+        "nivel": "Avançado"
       }
     ],
     "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
+      "Angular",
+      "TypeScript",
+      "Arquitetura Front-End"
     ]
   },
   {
     "id": 56,
-    "nome": "Bruno Costa",
+    "nome": "Giovanna Antonelli",
     "foto": "https://i.pravatar.cc/150?img=56",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
-    "localizacao": "Recife/PE",
-    "area": "Design",
+    "cargo": "Tech Recruiter Sênior",
+    "resumo": "Especialista em sourcing e recrutamento de perfis complexos de engenharia (Sênior, Staff, Principal).",
+    "localizacao": "Florianópolis/SC",
+    "area": "Recursos Humanos",
     "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
+      "Sourcing (Boolean Search)",
+      "LinkedIn Recruiter",
+      "Entrevista Técnica (Triagem)",
+      "Gestão de Stakeholders"
     ],
     "softSkills": [
-      "Empatia",
-      "Criatividade",
-      "Colaboração",
-      "Comunicação Visual"
+      "Comunicação",
+      "Negociação",
+      "Persuasão",
+      "Organização"
     ],
     "experiencias": [
       {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
+        "empresa": "Unicórnio Tech",
+        "cargo": "Senior Tech Recruiter",
+        "inicio": "2019-10",
         "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
+        "descricao": "Responsável por posições estratégicas de engenharia, atuando globalmente."
       }
     ],
     "formacao": [
       {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
+        "curso": "Relações Internacionais",
+        "instituicao": "UFSC",
         "ano": 2017
       }
     ],
-    "projetos": [
-      {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
-      }
-    ],
-    "certificacoes": [
-      "Certified UX Professional (NN/g)"
-    ],
+    "projetos": [],
+    "certificacoes": [],
     "idiomas": [
       {
         "idioma": "Inglês",
+        "nivel": "Fluente"
+      },
+      {
+        "idioma": "Espanhol",
         "nivel": "Avançado"
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "Recrutamento Técnico",
+      "Sourcing",
+      "Employer Branding"
     ]
   },
   {
     "id": 57,
-    "nome": "Carla Dias",
+    "nome": "Hugo Valente",
     "foto": "https://i.pravatar.cc/150?img=57",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "cargo": "Analista de BI Sênior",
+    "resumo": "Líder técnico em BI, especialista em modelagem de dados (Data Warehouse) e criação de dashboards complexos.",
+    "localizacao": "São Paulo/SP",
+    "area": "Dados",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "Power BI",
+      "Tableau",
+      "SQL Avançado",
+      "Modelagem de Dados (Dimensional)",
+      "ETL (SSIS)"
     ],
     "softSkills": [
       "Liderança",
-      "Negociação",
-      "Organização",
-      "Gestão de Stakeholders"
+      "Visão de Negócios",
+      "Mentoria",
+      "Comunicação"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
+        "empresa": "Indústria S.A.",
+        "cargo": "Analista de BI Sênior",
+        "inicio": "2018-03",
         "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "descricao": "Responsável pela arquitetura de BI, ETL e entrega de dashboards para a diretoria."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
-        "ano": 2020
+        "curso": "Pós-graduação em Business Intelligence",
+        "instituicao": "FIAP",
+        "ano": 2017
       }
     ],
     "projetos": [],
     "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Fluente"
-      }
-    ],
-    "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
-    ]
-  },
-  {
-    "id": 58,
-    "nome": "Ana Clara Silva",
-    "foto": "https://i.pravatar.cc/150?img=58",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento de aplicações web escaláveis com React e Node.js. 5 anos de experiência.",
-    "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-    "habilidadesTecnicas": [
-      "React",
-      "Next.js",
-      "Node.js",
-      "Python",
-      "SQL",
-      "AWS"
-    ],
-    "softSkills": [
-      "Comunicação",
-      "Liderança",
-      "Resolução de Problemas",
-      "Trabalho em Equipe"
-    ],
-    "experiencias": [
-      {
-        "empresa": "TechCorp Solutions",
-        "cargo": "Engenheira de Software Pleno",
-        "inicio": "2022-01",
-        "fim": "Presente",
-        "descricao": "Liderança técnica no desenvolvimento do principal produto da empresa, usando React e microserviços Node.js."
-      }
-    ],
-    "formacao": [
-      {
-        "curso": "Pós-graduação em Arquitetura de Software",
-        "instituicao": "FIAP",
-        "ano": 2023
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "Plataforma de E-commerce",
-        "link": "https://github.com/ana/ecommerce",
-        "descricao": "Projeto pessoal de um e-commerce completo com Next.js, Stripe e Vercel."
-      }
-    ],
-    "certificacoes": [
-      "AWS Certified Cloud Practitioner",
-      "Scrum Fundamentals Certified"
-    ],
-    "idiomas": [
-      {
-        "idioma": "Inglês",
-        "nivel": "Fluente"
-      }
-    ],
-    "areaInteresses": [
-      "IA ética",
-      "Educação em Tecnologia",
-      "Computação Quântica"
-    ]
-  },
-  {
-    "id": 59,
-    "nome": "Bruno Costa",
-    "foto": "https://i.pravatar.cc/150?img=59",
-    "cargo": "UX/UI Designer Sênior",
-    "resumo": "Designer focado em soluções centradas no usuário, com 8 anos de experiência em prototipação e design systems.",
-    "localizacao": "Recife/PE",
-    "area": "Design",
-    "habilidadesTecnicas": [
-      "Figma",
-      "Adobe XD",
-      "Miro",
-      "User Research",
-      "HTML/CSS"
-    ],
-    "softSkills": [
-      "Empatia",
-      "Criatividade",
-      "Colaboração",
-      "Comunicação Visual"
-    ],
-    "experiencias": [
-      {
-        "empresa": "DesignNow",
-        "cargo": "UX/UI Designer Sênior",
-        "inicio": "2019-03",
-        "fim": "Presente",
-        "descricao": "Liderança da equipe de design de produto, responsável pela criação e manutenção do Design System."
-      }
-    ],
-    "formacao": [
-      {
-        "curso": "Bacharelado em Design Digital",
-        "instituicao": "UFPE",
-        "ano": 2017
-      }
-    ],
-    "projetos": [
-      {
-        "titulo": "App de Saúde Mental",
-        "link": "https://behance.net/bruno/saudemental",
-        "descricao": "Estudo de caso e protótipo de alta fidelidade para um aplicativo de bem-estar."
-      }
-    ],
-    "certificacoes": [
-      "Certified UX Professional (NN/g)"
+      "Microsoft Certified: Data Analyst Associate (PL-300)"
     ],
     "idiomas": [
       {
@@ -3420,52 +3099,109 @@
       }
     ],
     "areaInteresses": [
-      "Design Inclusivo",
-      "Acessibilidade Web",
-      "Gamificação"
+      "Business Intelligence",
+      "Data Warehouse",
+      "Visualização de Dados"
     ]
   },
   {
-    "id": 60,
-    "nome": "Carla Dias",
-    "foto": "https://i.pravatar.cc/150?img=60",
-    "cargo": "Gerente de Projetos de TI",
-    "resumo": "Profissional com certificação PMP e experiência em metodologias ágeis (Scrum, Kanban) para entrega de software.",
-    "localizacao": "Rio de Janeiro/RJ",
-    "area": "Gestão",
+    "id": 58,
+    "nome": "Ícaro Pires",
+    "foto": "https://i.pravatar.cc/150?img=58",
+    "cargo": "Desenvolvedor Back-End Júnior (Java)",
+    "resumo": "Recém-formado em Ciência da Computação, buscando a primeira oportunidade em Java/Spring Boot.",
+    "localizacao": "Brasília/DF",
+    "area": "Desenvolvimento",
     "habilidadesTecnicas": [
-      "Jira",
-      "MS Project",
-      "Scrum",
-      "Kanban",
-      "Gestão de Riscos"
+      "Java",
+      "Spring Boot (Básico)",
+      "SQL (PostgreSQL)",
+      "Git",
+      "Orientação a Objetos"
     ],
     "softSkills": [
-      "Liderança",
-      "Negociação",
-      "Organização",
-      "Gestão de Stakeholders"
+      "Vontade de Aprender",
+      "Resolução de Problemas",
+      "Colaboração",
+      "Organização"
     ],
     "experiencias": [
       {
-        "empresa": "FutureBank",
-        "cargo": "Gerente de Projetos de TI",
-        "inicio": "2021-01",
-        "fim": "Presente",
-        "descricao": "Gerenciamento de 4 squads de desenvolvimento para a plataforma de Open Banking."
+        "empresa": "Universidade de Brasília",
+        "cargo": "Monitor de Programação",
+        "inicio": "2022-01",
+        "fim": "2022-12",
+        "descricao": "Monitor da disciplina de Algoritmos e Estrutura de Dados."
       }
     ],
     "formacao": [
       {
-        "curso": "MBA em Gestão de Projetos",
-        "instituicao": "FGV",
-        "ano": 2020
+        "curso": "Ciência da Computação",
+        "instituicao": "UnB",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "API de Blog",
+        "link": "https://github.com/icaro/blog-api",
+        "descricao": "Projeto de estudo de uma API REST com Spring Boot e H2."
+      }
+    ],
+    "certificacoes": [],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Java",
+      "Spring Boot",
+      "Desenvolvimento Back-End"
+    ]
+  },
+  {
+    "id": 59,
+    "nome": "Jaqueline Mendes",
+    "foto": "https://i.pravatar.cc/150?img=59",
+    "cargo": "Especialista em UX Research",
+    "resumo": "Pesquisadora de UX Sênior com 8 anos de experiência, liderando pesquisas estratégicas e exploratórias.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "UX Research (Quali/Quanti)",
+      "Testes de Usabilidade",
+      "Jornada do Usuário",
+      "Personas",
+      "Pesquisa de Campo"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Escuta Ativa",
+      "Curiosidade",
+      "Análise Crítica",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Fintech",
+        "cargo": "Lead UX Researcher",
+        "inicio": "2019-05",
+        "fim": "Presente",
+        "descricao": "Liderança da equipe de UX Research, definição de metodologias e mentoria de pesquisadores."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Ciências Sociais",
+        "instituicao": "USP",
+        "ano": 2015
       }
     ],
     "projetos": [],
     "certificacoes": [
-      "PMP - Project Management Professional",
-      "CSM - Certified ScrumMaster"
+      "Certified UX Professional (NN/g)"
     ],
     "idiomas": [
       {
@@ -3474,9 +3210,67 @@
       }
     ],
     "areaInteresses": [
-      "Metodologias Ágeis",
-      "Fintechs",
-      "Liderança Feminina"
+      "UX Research",
+      "Estratégia de Design",
+      "Comportamento do Usuário"
+    ]
+  },
+  {
+    "id": 60,
+    "nome": "Kevim Barbosa",
+    "foto": "https://i.pravatar.cc/150?img=60",
+    "cargo": "Desenvolvedor Front-End (Estágio)",
+    "resumo": "Estudante de Engenharia de Software buscando estágio. Foco em JavaScript, React e consumo de APIs.",
+    "localizacao": "Goiânia/GO",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "API REST",
+      "Git"
+    ],
+    "softSkills": [
+      "Proatividade",
+      "Colaboração",
+      "Vontade de Aprender",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Projetos Pessoais",
+        "cargo": "Estudante",
+        "inicio": "2023-01",
+        "fim": "Presente",
+        "descricao": "Desenvolvimento de projetos de estudo, como Pokedex e clones de UI."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "UFG",
+        "ano": 2026
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Pokedex",
+        "link": "https://github.com/kevim/pokedex",
+        "descricao": "Consumo da PokeAPI e exibição dos dados com React."
+      }
+    ],
+    "certificacoes": [],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Front-End",
+      "React",
+      "JavaScript"
     ]
   }
 ]
