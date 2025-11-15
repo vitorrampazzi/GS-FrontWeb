@@ -1435,7 +1435,7 @@
   {
     "id": 27,
     "nome": "Arthur Bernardes",
-    "foto": "https://i.pravatar.cc/150?img=27",
+    "foto": "https://i.pravatar.cc/150?img=50",
     "cargo": "Engenheiro de Machine Learning",
     "resumo": "Focado em construir e colocar em produção modelos de Machine Learning, especialmente em NLP e Visão Computacional.",
     "localizacao": "São Paulo/SP",
@@ -2677,53 +2677,53 @@
   },
   {
     "id": 50,
-    "nome": "Amanda Guerra",
-    "foto": "https://i.pravatar.cc/150?img=50",
-    "cargo": "Desenvolvedora Mobile (Flutter)",
-    "resumo": "Engenheira de software focada em desenvolvimento híbrido com Flutter e Dart. 3 anos de experiência.",
-    "localizacao": "Fortaleza/CE",
-    "area": "Desenvolvimento",
+    "nome": "Vitoria Lopes Pinheiro",
+    "foto": "https://i.pravatar.cc/150?img=27",
+    "cargo": "Perita Criminal",
+    "resumo": "Análise de DNA, coleta e preservação de evidências em cenas de crime, elaboração de laudos periciais.",
+    "localizacao": "São Paulo/SP",
+    "area": "Segurança",
     "habilidadesTecnicas": [
-      "Flutter",
-      "Dart",
-      "Firebase",
-      "Bloc Pattern",
-      "GetX"
+      "Coleta de Evidências",
+      "Análise de evidências",
+      "Elaboração de Laudos",
+      "Documentação Forense",
+      "Análise de digitais"
     ],
     "softSkills": [
-      "Colaboração",
+      "Boa comunicação",
       "Aprendizado Rápido",
-      "Comunicação",
-      "Resolução de Problemas"
+      "Trabalho em Equipe",
+      "Atenção aos Detalhes"
     ],
     "experiencias": [
       {
-        "empresa": "AppDev",
-        "cargo": "Desenvolvedora Flutter Pleno",
+        "empresa": "Polícia Civil de SP",
+        "cargo": "Perita Criminal",
         "inicio": "2021-08",
         "fim": "Presente",
-        "descricao": "Desenvolvimento de aplicativos para Android e iOS usando uma única base de código Flutter."
+        "descricao": "Atuação em análises periciais, coleta de evidências e elaboração de laudos técnicos."
       }
     ],
     "formacao": [
       {
-        "curso": "Ciência da Computação",
-        "instituicao": "UFC",
+        "curso": "Biomedicina",
+        "instituicao": "Santa Casa de São Paulo",
         "ano": 2020
       }
     ],
     "projetos": [],
-    "certificacoes": [],
+    "certificacoes": ["liga de perícia criminal"],
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Avançado"
+        "nivel": "Intermediário"
       }
     ],
     "areaInteresses": [
-      "Flutter",
-      "Desenvolvimento Híbrido",
-      "Dart"
+      "Perícia Criminal",
+      "Forense Digital",
+      "Análise de Evidências"
     ]
   },
   {
