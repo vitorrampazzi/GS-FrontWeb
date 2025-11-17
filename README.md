@@ -1,39 +1,151 @@
-# Global Solution 2025 - DevConnect
+# 🚀 DevConnect — Global Solution
+### Plataforma full-stack para conexão entre desenvolvedores
 
-Este é o projeto da Global Solution do 2º Semestre/2025, focado no tema "O Futuro do Trabalho".
+---
 
-**DevConnect** é uma plataforma web colaborativa (SPA) que simula uma rede profissional, permitindo explorar perfis, habilidades e experiências, conectando talentos.
+## 📌 Descrição do Projeto e Estrutura de Pastas
 
-## 🛠️ Tecnologias Utilizadas
+O **DevConnect** é um projeto full-stack que simula uma plataforma onde desenvolvedores podem se conectar.  
+Ele é dividido em dois módulos principais — **frontend** e **backend**, que precisam rodar simultaneamente.
 
-* **React:** Para a construção da interface de usuário reativa.
-* **Vite:** Para o build e desenvolvimento rápido.
-* **Tailwind CSS:** Para a estilização moderna e responsiva.
+### 📁 Estrutura
 
-## 🚀 Instalação e Execução
+| Pasta | Descrição |
+|-------|-----------|
+| **backend-python/** | Backend em Python + Flask (API que fornece os dados). |
+| **gs_frontdev/** | Frontend em Next.js + React (interface que exibe os perfis). |
 
-1.  **Clone o repositório:**
-    ```bash
-    git clone [SEU_LINK_DO_GITHUB_AQUI]
-    ```
-2.  **Acesse a pasta do projeto:**
-    ```bash
-    cd gs-futuro-do-trabalho
-    ```
-3.  **Instale as dependências:**
-    ```bash
-    npm install
-    ```
-4.  **Execute o projeto:**
-    ```bash
-    npm run dev
-    ```
-5.  Abra `http://localhost:5173` (ou a porta indicada no terminal) no seu navegador.
+---
 
-## 👤 Credenciais
+## 🧰 Tecnologias Utilizadas
 
-Não há sistema de login ou senhas neste projeto. Todos os dados são públicos e simulados.
+### 🎨 Frontend
+- Next.js  
+- React  
+- TailwindCSS  
+- Axios  
 
-## 🔗 Link do Repositório
+### 🧱 Backend
+- Python  
+- Flask  
+- Flask-CORS  
 
-[https://github.com/seu-usuario/seu-repositorio](https://github.com/seu-usuario/seu-repositorio)
+---
+
+## 🔧 Pré-requisitos
+
+Você precisa ter instalado:
+
+- **Node.js 18+** (para o Frontend)  
+- **Python 3.8+** (para o Backend)  
+- **pip**  
+
+---
+
+# 🚀 Guia de Instalação e Execução
+
+> ⚠️ Importante: o backend e o frontend devem rodar ao mesmo tempo.  
+Use **2 terminais separados**.
+
+---
+
+# 🐍 1. Rodando o Backend (Terminal 1)
+
+### ➤ Navegue até a pasta do backend
+
+```bash
+cd C:\Caminho\Para\SeuProjeto\backend-python
+```
+
+---
+
+### ➤ (Opcional) Criar e ativar ambiente virtual
+
+```bash
+python -m venv venv
+```
+
+**Windows:**
+```bash
+.\venv\Scripts\activate
+```
+
+**Mac/Linux:**
+```bash
+source venv/bin/activate
+```
+
+---
+
+### ➤ Instalar dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### ➤ Rodar servidor backend
+
+```bash
+python app.py
+```
+
+Terminal deve mostrar:
+
+```
+ * Running on http://127.0.0.1:5000
+```
+
+---
+
+# ⚛️ 2. Rodando o Frontend (Terminal 2)
+
+### ➤ Navegue até o frontend
+
+```bash
+cd C:\Caminho\Para\SeuProjeto\gs_frontdev
+```
+
+---
+
+### ➤ Instalar dependências
+
+```bash
+npm install
+```
+
+---
+
+### ➤ Rodar servidor frontend
+
+```bash
+npm run dev
+```
+
+Mensagem esperada:
+
+```
+✓ Ready in 3.2s
+✓ TTP: http://localhost:3000
+```
+
+---
+
+# 🖥️ 3. Acessando a Aplicação
+
+Abra o navegador em:
+
+**http://localhost:3000**
+
+---
+
+# 🧑‍💻 Informações do Aluno
+
+| Campo | Informação |
+|-------|------------|
+| **Nome:** | Vitor Rampazzi, Daniel Brito, Gustavo Palomares |
+| **RM:** | 562270, 564621, 566236 |
+| **Turma:** | 1ESR |
+
+---
