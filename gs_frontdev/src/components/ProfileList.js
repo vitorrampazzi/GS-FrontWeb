@@ -26,7 +26,7 @@ export default function ProfileList({ allProfiles }) {
     if (isDark) {
       document.documentElement.classList.add('dark');
     } else {
-      document.documentElement.classList.remove('dark');
+      document.documentElement.classList.add('light');
     }
   }, [isDark]); 
 
