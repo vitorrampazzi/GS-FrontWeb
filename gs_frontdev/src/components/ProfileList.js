@@ -3,15 +3,36 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import ProfileCard from './ProfileCard';
 
+const getColor = () => {
+    // Tenta ler do localStorage primeiro (Sobrescreve a preferência do SO se houver)
+    if (typeof window !== 'undefined') {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+            return true;
+        }
+        if (savedTheme === 'light') {
+            return false;
+        }
+    }
+    
+    // Se não há escolha salva, usa a preferência do Sistema Operacional
+    if (typeof window !== 'undefined' && window.matchMedia) {
+        return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }
+    
+    // Padrão seguro para o servidor
+    return false;
+};
 export default function ProfileList({ allProfiles }) {
   
   const [profiles, setProfiles] = useState(allProfiles); 
   const [searchTerm, setSearchTerm] = useState('');
   const [areaFilter, setAreaFilter] = useState('');
   const [cityFilter, setCityFilter] = useState('');
-  const [isDark, setIsDark] = useState(false);
   const [sortOrder, setSortOrder] = useState('asc');
-
+  
+  const [isDark, setIsDark] = useState(getColor);
+  
   const uniqueAreas = useMemo(() => {
     const allAreas = allProfiles.map(profile => profile.area);
     return [...new Set(allAreas)].sort(); 
@@ -25,8 +46,10 @@ export default function ProfileList({ allProfiles }) {
   useEffect(() => {
     if (isDark) {
       document.documentElement.classList.add('dark');
+      localStorage.setItem('theme', 'dark');
     } else {
       document.documentElement.classList.remove('dark');
+      localStorage.setItem('theme', 'light');
     }
   }, [isDark]); 
 
