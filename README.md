@@ -136,16 +136,18 @@ Mensagem esperada:
 
 Abra o navegador em:
 
-**https://devconnect-phi-nine.vercel.app/**
+**http://localhost:3000**
 
 ---
 
 # 🧑‍💻 Informações do Aluno
 
-| Campo | Informação |
+| Nome | RM |
 |-------|------------|
-| **Nome:** | Vitor Rampazzi, Daniel Brito, Gustavo Palomares |
-| **RM:** | 562270, 564621, 566236 |
-| **Turma:** | 1ESR |
+| **Vitor Rampazzi** | 562270 |
+| **Daniel Brito** | 566236 |
+| **Gustavo Borsato** | 564621 |
+
+*Sala: 1ESR*
 
 ---
