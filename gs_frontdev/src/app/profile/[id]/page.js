@@ -1,15 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-// 1. Importamos o componente dos botões interativos (Cliente)
+
 import ProfileActions from '@/components/ProfileActions';
 
-// Função para buscar o perfil da API Python
 async function getProfile(id) {
   try {
-    // Busca os dados do backend Flask
-    const res = await fetch(`http://127.0.0.1:5000/api/profile/${id}`, {
-      cache: 'no-store' // Garante dados frescos a cada requisição
+      const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:5000';
+      const res = await fetch(`${baseUrl}/api/profile/${id}`, {
+      cache: 'no-store'
     });
     
     if (!res.ok) { return null; }
@@ -21,13 +20,10 @@ async function getProfile(id) {
 }
 
 export default async function ProfilePage({ params }) {
-  // 1. Resolve a promessa 'params' (necessário no Next.js mais recente)
   const unwrappedParams = await params; 
   
-  // 2. Busca o perfil da API
   const profile = await getProfile(unwrappedParams.id); 
 
-  // 3. Se não encontrar o perfil, mostra mensagem de erro
   if (!profile) {
     return (
       <div className="text-center p-10">
@@ -40,7 +36,6 @@ export default async function ProfilePage({ params }) {
     );
   }
 
-  // 4. Renderiza o perfil
   return (
     <main className="max-w-4xl mx-auto p-6 md:p-10">
       <Link href="/" className="text-blue-500 dark:text-blue-400 hover:underline mb-6 inline-block font-medium">
@@ -49,7 +44,6 @@ export default async function ProfilePage({ params }) {
       
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl overflow-hidden border border-gray-100 dark:border-gray-700 transition-colors duration-300">
         
-        {/* --- CABEÇALHO DO PERFIL --- */}
         <div className="p-8 text-center from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 border-b border-gray-100 dark:border-gray-700">
           <div className="relative w-32 h-32 mx-auto mb-4">
             <Image 
@@ -69,22 +63,19 @@ export default async function ProfilePage({ params }) {
             <span>•</span>
             <span>{profile.area}</span>
           </p>
-          
-          {/* 5. AQUI ESTÃO OS BOTÕES! */}
+
+
           <ProfileActions profileName={profile.nome} />
 
         </div>
         
-        {/* --- CORPO DO PERFIL (Informações Detalhadas) --- */}
         <div className="p-8 space-y-8">
           
-          {/* Resumo */}
           <section>
             <h3 className="text-2xl font-semibold border-b border-gray-200 dark:border-gray-700 pb-3 text-gray-800 dark:text-gray-100 mb-4">Resumo Profissional</h3>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg">{profile.resumo}</p>
           </section>
 
-          {/* Experiências */}
           <section>
             <h3 className="text-2xl font-semibold border-b border-gray-200 dark:border-gray-700 pb-3 text-gray-800 dark:text-gray-100 mb-4">Experiência</h3>
             <div className="space-y-6">
@@ -101,7 +92,6 @@ export default async function ProfilePage({ params }) {
             </div>
           </section>
 
-          {/* Formação */}
           <section>
             <h3 className="text-2xl font-semibold border-b border-gray-200 dark:border-gray-700 pb-3 text-gray-800 dark:text-gray-100 mb-4">Formação Acadêmica</h3>
             <div className="space-y-4">
@@ -115,9 +105,7 @@ export default async function ProfilePage({ params }) {
             </div>
           </section>
 
-          {/* Skills (Grid de 2 colunas) */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Técnicas */}
             <section>
               <h3 className="text-2xl font-semibold border-b border-gray-200 dark:border-gray-700 pb-3 text-gray-800 dark:text-gray-100 mb-4">Habilidades Técnicas</h3>
               <div className="flex flex-wrap gap-2">
@@ -129,7 +117,6 @@ export default async function ProfilePage({ params }) {
               </div>
             </section>
 
-            {/* Soft Skills */}
             <section>
               <h3 className="text-2xl font-semibold border-b border-gray-200 dark:border-gray-700 pb-3 text-gray-800 dark:text-gray-100 mb-4">Soft Skills</h3>
               <div className="flex flex-wrap gap-2">
@@ -142,7 +129,6 @@ export default async function ProfilePage({ params }) {
             </section>
           </div>
 
-          {/* Projetos */}
           {profile.projetos && profile.projetos.length > 0 && (
             <section>
               <h3 className="text-2xl font-semibold border-b border-gray-200 dark:border-gray-700 pb-3 text-gray-800 dark:text-gray-100 mb-4">Projetos em Destaque</h3>
@@ -160,7 +146,6 @@ export default async function ProfilePage({ params }) {
             </section>
           )}
 
-          {/* Idiomas e Certificações */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-gray-50 dark:bg-gray-700/30 p-6 rounded-xl">
             <section>
               <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-3 flex items-center gap-2">

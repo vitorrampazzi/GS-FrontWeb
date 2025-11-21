@@ -4,7 +4,6 @@ import React, { useState, useEffect, useMemo } from 'react';
 import ProfileCard from './ProfileCard';
 
 const getColor = () => {
-    // Tenta ler do localStorage primeiro (Sobrescreve a preferência do SO se houver)
     if (typeof window !== 'undefined') {
         const savedTheme = localStorage.getItem('theme');
         if (savedTheme === 'dark') {
@@ -14,13 +13,6 @@ const getColor = () => {
             return false;
         }
     }
-    
-    // Se não há escolha salva, usa a preferência do Sistema Operacional
-    if (typeof window !== 'undefined' && window.matchMedia) {
-        return window.matchMedia('(prefers-color-scheme: dark)').matches;
-    }
-    
-    // Padrão seguro para o servidor
     return false;
 };
 export default function ProfileList({ allProfiles }) {
@@ -30,8 +22,8 @@ export default function ProfileList({ allProfiles }) {
   const [areaFilter, setAreaFilter] = useState('');
   const [cityFilter, setCityFilter] = useState('');
   const [sortOrder, setSortOrder] = useState('asc');
-  
   const [isDark, setIsDark] = useState(getColor);
+  
   
   const uniqueAreas = useMemo(() => {
     const allAreas = allProfiles.map(profile => profile.area);

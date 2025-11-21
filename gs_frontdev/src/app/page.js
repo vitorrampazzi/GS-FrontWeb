@@ -3,7 +3,10 @@ import ProfileList from '@/components/ProfileList';
 
 async function getProfilesFromServer() {
     try {
-        const res = await fetch('http://127.0.0.1:5000/api/profiles');
+      
+        const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:5000';
+        const res = await fetch(`${baseUrl}/api/profiles`);
+
         if (!res.ok) {
             throw new Error('Falha ao buscar dados do backend');
         }
