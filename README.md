@@ -136,7 +136,7 @@ Mensagem esperada:
 
 Abra o navegador em:
 
-**http://localhost:3000**
+**https://devconnect-phi-nine.vercel.app/**
 
 ---
 
